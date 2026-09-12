@@ -104,7 +104,7 @@ export default async function Image() {
                   backgroundColor: "#0b8f55",
                 }}
               />
-              Il fantacalcio, ogni giorno
+
             </div>
           </div>
         </div>

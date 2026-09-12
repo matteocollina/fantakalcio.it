@@ -35,9 +35,9 @@ export function BlogListing({ posts, currentPage, totalPages }: BlogListingProps
           </p>
           <h1 className="text-4xl font-black uppercase italic leading-none tracking-[-0.05em] text-[var(--text-primary)] sm:text-6xl">Ultime notizie</h1>
         </div>
-        <p className="hidden max-w-xs text-right text-sm font-medium leading-6 text-[var(--text-muted)] md:block">
+        {/* <p className="hidden max-w-xs text-right text-sm font-medium leading-6 text-[var(--text-muted)] md:block">
           Formazioni, indisponibili e analisi per arrivare pronti alla prossima giornata.
-        </p>
+        </p> */}
       </header>
 
       {leadPost ? (

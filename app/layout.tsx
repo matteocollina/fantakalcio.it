@@ -63,7 +63,7 @@ export default function RootLayout({
         <div className="min-h-full">
           <div className="border-b border-white/10 bg-[var(--masthead)] text-white">
             <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-2 text-[11px] font-bold uppercase tracking-[0.18em] sm:px-6">
-              <span>Il fantacalcio, ogni giorno</span>
+              <span></span>
               <span className="hidden text-white/60 sm:inline">Notizie · Analisi · Consigli</span>
             </div>
           </div>

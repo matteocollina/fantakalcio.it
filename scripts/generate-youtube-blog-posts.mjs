@@ -61,13 +61,27 @@ function log(message) {
 }
 
 function slugify(value) {
-  return value
+  const words = value
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
-    .slice(0, 80);
+    .split("-")
+    .filter(Boolean);
+  const selectedWords = [];
+
+  for (const word of words) {
+    const candidate = [...selectedWords, word].join("-");
+
+    if (candidate.length > 100) {
+      break;
+    }
+
+    selectedWords.push(word);
+  }
+
+  return selectedWords.join("-");
 }
 
 function decodeHtml(value) {
@@ -140,12 +154,41 @@ function parseRssEntries(xml) {
 }
 
 async function readState() {
+  let raw;
+
   try {
-    const raw = await readFile(STATE_FILE, "utf8");
-    return JSON.parse(raw);
-  } catch {
-    return { processedVideoIds: {} };
+    raw = await readFile(STATE_FILE, "utf8");
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return { processedVideoIds: {} };
+    }
+
+    throw new Error(`Impossibile leggere lo stato YouTube: ${error.message}`);
   }
+
+  let state;
+
+  try {
+    state = JSON.parse(raw);
+  } catch (error) {
+    throw new Error(
+      `Stato YouTube non valido: ${error.message}. Interrompo per non rielaborare video già gestiti.`,
+    );
+  }
+
+  if (
+    !state ||
+    typeof state !== "object" ||
+    !state.processedVideoIds ||
+    typeof state.processedVideoIds !== "object" ||
+    Array.isArray(state.processedVideoIds)
+  ) {
+    throw new Error(
+      "Stato YouTube privo di processedVideoIds valido. Interrompo per non creare duplicati.",
+    );
+  }
+
+  return state;
 }
 
 async function writeState(state) {
@@ -635,6 +678,7 @@ async function main() {
   await mkdir(BLOG_DIR, { recursive: true });
 
   const state = await readState();
+  const processedVideoIds = new Set(Object.keys(state.processedVideoIds));
   const usedSlugs = await existingSlugs();
   let hasErrors = false;
   let createdPost = false;
@@ -665,13 +709,16 @@ async function main() {
     }
   }
 
-  const freshVideos = allVideos
+  const recentVideos = allVideos
     .filter((video, index, collection) => collection.findIndex((item) => item.videoId === video.videoId) === index)
     .filter((video) => new Date(video.publishedAt).getTime() >= threshold)
-    .filter((video) => !state.processedVideoIds[video.videoId])
-    .sort((left, right) => new Date(right.publishedAt).getTime() - new Date(left.publishedAt).getTime())
+    .sort((left, right) => new Date(right.publishedAt).getTime() - new Date(left.publishedAt).getTime());
+  const skippedVideos = recentVideos.filter((video) => processedVideoIds.has(video.videoId));
+  const freshVideos = recentVideos
+    .filter((video) => !processedVideoIds.has(video.videoId))
     .slice(0, MAX_SOURCES_PER_RUN);
 
+  log(`Video già presenti nello stato e saltati: ${skippedVideos.length}`);
   log(`Video nuovi candidati: ${freshVideos.length}`);
 
   if (freshVideos.length === 0) {
