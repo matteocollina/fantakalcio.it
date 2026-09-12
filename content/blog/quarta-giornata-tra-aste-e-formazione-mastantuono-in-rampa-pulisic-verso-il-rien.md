@@ -1,11 +1,11 @@
 ---
 title: "Quarta giornata, tra aste e formazione: Mastantuono in rampa, Pulisic verso il rientro e i ballottaggi che spaccano il weekend"
-subtitle: "Doppietta che alza le quotazioni, Milan ancora in cantiere e notizie di campo decisive per chi deve ancora completare o ritoccare la rosa."
+subtitle: "Tripletta che alza le quotazioni, Milan ancora in cantiere e notizie di campo decisive per chi deve ancora completare o ritoccare la rosa."
 description: "La 4ª giornata si apre con l’effetto Mastantuono sul mercato, con Pulisic che punta a tornare a minutaggio e con una serie di ballottaggi che orientano scelte e strategie. Ecco cosa sta emergendo tra aste, consigli e ultime indicazioni."
 publishedAt: 2026-09-12
 tags: ["Mastantuono","Pulisic","Milan","Venezia-Fiorentina","asta fantacalcio","4ª giornata"]
 ---
-La notizia che sta muovendo davvero la 4ª giornata, soprattutto per chi deve ancora fare l’asta o prepara una riparazione, è l’“effetto **Mastantuono**: la sua doppietta ha acceso immediatamente il mercato e sta spingendo verso l’alto la percezione del suo valore. Tradotto: chi era pronto a prenderlo con una spesa contenuta rischia ora di dover rilanciare, perché il nome è entrato con forza nel giro dei profili “caldi” del momento.
+La notizia che sta muovendo davvero la 4ª giornata, soprattutto per chi deve ancora fare l’asta o prepara una riparazione, è l’“effetto **Mastantuono**”: la sua tripletta nel 4-2 della Fiorentina a Venezia ha acceso immediatamente il mercato e sta spingendo verso l’alto la percezione del suo valore. Tradotto: chi era pronto a prenderlo con una spesa contenuta rischia ora di dover rilanciare, perché il nome è entrato con forza nel giro dei profili “caldi” del momento.
 
 Nel frattempo, il weekend si apre con **Venezia-Fiorentina** e con una quantità di dubbi di formazione che sta cambiando il modo di costruire la giornata, tra titolarità da inseguire e coperture da preparare.
 
