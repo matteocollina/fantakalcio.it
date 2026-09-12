@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/.ytscribe/
 /.pnp
 .pnp.*
 .yarn/*
