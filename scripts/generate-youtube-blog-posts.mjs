@@ -29,27 +29,19 @@ const CHANNELS = [
 ];
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const OPENAI_MODEL = process.env.OPENAI_MODEL ?? "gpt-5.2";
+const OPENAI_MODEL = "gpt-5.2";
 const LOCAL_YTSCRIBE_PYTHON = path.join(process.cwd(), ".venv-ytscribe", "bin", "python");
 const YTSCRIBE_PYTHON =
-  process.env.YTSCRIBE_PYTHON ??
-  (existsSync(LOCAL_YTSCRIBE_PYTHON) ? LOCAL_YTSCRIBE_PYTHON : "python3");
-const YTSCRIBE_SCRIPT_PATH = path.resolve(
-  process.env.YTSCRIBE_SCRIPT_PATH ?? ".ytscribe/scripts/ytscribe.py",
-);
-const YTSCRIBE_LANG = process.env.YTSCRIBE_LANG ?? "it";
-const MAX_VIDEOS_PER_CHANNEL = Number(process.env.YOUTUBE_MAX_VIDEOS_PER_CHANNEL ?? "5");
-const MAX_SOURCES_PER_RUN = Number(process.env.YOUTUBE_MAX_SOURCES_PER_RUN ?? "12");
-const LOOKBACK_HOURS = Number(process.env.YOUTUBE_LOOKBACK_HOURS ?? "36");
+  existsSync(LOCAL_YTSCRIBE_PYTHON) ? LOCAL_YTSCRIBE_PYTHON : "python3";
+const YTSCRIBE_SCRIPT_PATH = path.resolve(".ytscribe/scripts/ytscribe.py");
+const YTSCRIBE_LANG = "it";
+const MAX_VIDEOS_PER_CHANNEL = 5;
+const MAX_SOURCES_PER_RUN = 12;
+const LOOKBACK_HOURS = 36;
 const OPENAI_API_URL = "https://api.openai.com/v1/responses";
-const PLAYER_QUOTES_URL =
-  process.env.PLAYER_QUOTES_URL ??
-  "https://www.fantacalcio.it/quotazioni-fantacalcio";
-const INJURIES_URL =
-  process.env.INJURIES_URL ??
-  "https://www.fantacalcio.it/infortunati-serie-a";
+const PLAYER_QUOTES_URL = "https://www.fantacalcio.it/quotazioni-fantacalcio";
+const INJURIES_URL = "https://www.fantacalcio.it/infortunati-serie-a";
 const LATEST_RESULTS_URL =
-  process.env.LATEST_RESULTS_URL ??
   "https://www.fantacalcio.it/news/calcio-italia/serie-a/ultima-giornata";
 
 if (!OPENAI_API_KEY) {
