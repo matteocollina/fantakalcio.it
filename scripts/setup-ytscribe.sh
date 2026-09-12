@@ -6,6 +6,7 @@ project_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ytscribe_dir="${project_dir}/.ytscribe"
 venv_dir="${project_dir}/.venv-ytscribe"
 ytscribe_ref="bd04947a93ce32ed173ec16561f8810f38af30fc"
+cookies_patch="${project_dir}/scripts/ytscribe-cookies.patch"
 
 python_bin=""
 
@@ -33,6 +34,15 @@ if [[ ! -f "${ytscribe_dir}/scripts/ytscribe.py" ]]; then
 
   git clone --no-checkout https://github.com/alexwbend/ytscribe.git "${ytscribe_dir}"
   git -C "${ytscribe_dir}" checkout "${ytscribe_ref}"
+fi
+
+if git -C "${ytscribe_dir}" apply --reverse --check "${cookies_patch}" >/dev/null 2>&1; then
+  : # Patch gia applicata, per esempio dopo un secondo setup locale.
+elif git -C "${ytscribe_dir}" apply --check "${cookies_patch}"; then
+  git -C "${ytscribe_dir}" apply "${cookies_patch}"
+else
+  echo "Impossibile applicare la patch cookie alla versione fissata di ytscribe." >&2
+  exit 1
 fi
 
 if [[ -x "${venv_dir}/bin/python" ]] && ! "${venv_dir}/bin/python" -c 'import sys; raise SystemExit(sys.version_info < (3, 10))'; then

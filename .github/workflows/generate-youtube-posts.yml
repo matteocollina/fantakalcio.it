@@ -46,6 +46,21 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Prepare YouTube cookies
+        env:
+          YOUTUBE_COOKIES_B64: ${{ secrets.YOUTUBE_COOKIES_B64 }}
+        run: |
+          if [ -z "${YOUTUBE_COOKIES_B64}" ]; then
+            echo "::error::Secret YOUTUBE_COOKIES_B64 mancante"
+            exit 1
+          fi
+          printf '%s' "${YOUTUBE_COOKIES_B64}" | base64 --decode > .youtube-cookies.txt
+          chmod 600 .youtube-cookies.txt
+          if ! head -n 1 .youtube-cookies.txt | grep -Eq '^# (Netscape )?HTTP Cookie File$'; then
+            echo "::error::YOUTUBE_COOKIES_B64 non contiene un cookie file Netscape valido"
+            exit 1
+          fi
+
       - name: Generate hourly news digest
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -62,3 +77,7 @@ jobs:
           fi
           git commit -m "chore: generate hourly news digest"
           git push
+
+      - name: Remove YouTube cookies
+        if: always()
+        run: rm -f .youtube-cookies.txt
