@@ -1,15 +1,19 @@
-name: Generate YouTube Blog Posts
+name: Generate Hourly News Digest
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 * * * *"
+
+concurrency:
+  group: generate-hourly-news-digest
+  cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
-  generate-posts:
+  generate-news:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,21 +31,21 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate blog posts
+      - name: Generate hourly news digest
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           YTSCRIBE: ${{ secrets.YTSCRIBE }}
           OPENAI_MODEL: gpt-5.2
         run: npm run generate:youtube-posts
 
-      - name: Commit generated posts
+      - name: Commit generated news digest
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/blog content/.youtube-sync-state.json
+          git add content
           if git diff --cached --quiet; then
             echo "Nessuna modifica da committare"
             exit 0
           fi
-          git commit -m "chore: generate youtube blog posts"
+          git commit -m "chore: generate hourly news digest"
           git push
