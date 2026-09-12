@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 
 import { BlogListing } from "@/app/components/blog-listing";
-import {
-  getAllCategories,
-  getAllPostSummaries,
-  POSTS_PER_PAGE,
-} from "@/lib/blog";
+import { getAllPostSummaries, POSTS_PER_PAGE } from "@/lib/blog";
 import { siteConfig } from "@/lib/site";
 
 function parsePageParam(value: string | string[] | undefined) {
@@ -26,12 +22,11 @@ export async function generateMetadata(
   const currentPage = parsePageParam(searchParams.page);
   const canonical = currentPage <= 1 ? "/" : `/blog?page=${currentPage}`;
   const title =
-    currentPage <= 1 ? `Blog | ${siteConfig.name}` : `Blog - Pagina ${currentPage} | ${siteConfig.name}`;
+    currentPage <= 1 ? `Ultime notizie | ${siteConfig.name}` : `Ultime notizie - Pagina ${currentPage} | ${siteConfig.name}`;
 
   return {
-    title: currentPage <= 1 ? "Blog" : `Blog - Pagina ${currentPage}`,
-    description:
-      "Archivio degli articoli e aggiornamenti frontend di Matteo Collina.",
+    title: currentPage <= 1 ? "Ultime notizie" : `Ultime notizie - Pagina ${currentPage}`,
+    description: "Notizie, analisi e consigli per il fantacalcio.",
     alternates: {
       canonical,
     },
@@ -41,25 +36,20 @@ export async function generateMetadata(
       url: canonical,
       siteName: siteConfig.name,
       title,
-      description:
-        "Archivio degli articoli e aggiornamenti frontend di Matteo Collina.",
+      description: "Notizie, analisi e consigli per il fantacalcio.",
       images: ["/opengraph-image"],
     },
     twitter: {
       card: "summary_large_image",
       title,
-      description:
-        "Archivio degli articoli e aggiornamenti frontend di Matteo Collina.",
+      description: "Notizie, analisi e consigli per il fantacalcio.",
       images: ["/opengraph-image"],
     },
   };
 }
 
 export default async function BlogPage(props: PageProps<"/blog">) {
-  const [posts, categories] = await Promise.all([
-    getAllPostSummaries(),
-    getAllCategories(),
-  ]);
+  const posts = await getAllPostSummaries();
   const searchParams = await props.searchParams;
   const requestedPage = parsePageParam(searchParams.page);
   const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE));
@@ -70,7 +60,6 @@ export default async function BlogPage(props: PageProps<"/blog">) {
   return (
     <BlogListing
       posts={visiblePosts}
-      categories={categories}
       currentPage={currentPage}
       totalPages={totalPages}
     />

@@ -1,7 +1,4 @@
 import { ImageResponse } from "next/og";
-import { readFile } from "node:fs/promises";
-import path from "node:path";
-
 import { siteConfig } from "@/lib/site";
 
 export const alt = `${siteConfig.name} Open Graph image`;
@@ -14,9 +11,6 @@ export const size = {
 export const contentType = "image/png";
 
 export default async function Image() {
-  const portrait = await readFile(path.join(process.cwd(), "public", "mc.png"), "base64");
-  const portraitSrc = `data:image/png;base64,${portrait}`;
-
   return new ImageResponse(
     (
       <div
@@ -24,9 +18,9 @@ export default async function Image() {
           width: "100%",
           height: "100%",
           display: "flex",
-          background:
-            "linear-gradient(135deg, #09090b 0%, #18181b 55%, #27272a 100%)",
-          color: "#fafafa",
+          background: "#0c1830",
+          color: "#ffffff",
+          position: "relative",
         }}
       >
         <div
@@ -34,7 +28,8 @@ export default async function Image() {
             display: "flex",
             width: "100%",
             height: "100%",
-            padding: "56px",
+            padding: "60px 68px",
+            flexDirection: "column",
             justifyContent: "space-between",
           }}
         >
@@ -43,20 +38,21 @@ export default async function Image() {
               display: "flex",
               flexDirection: "column",
               justifyContent: "space-between",
-              width: "72%",
+              width: "100%",
             }}
           >
             <div
               style={{
                 display: "flex",
                 alignItems: "center",
-                fontSize: 26,
+                fontSize: 23,
+                fontWeight: 800,
                 letterSpacing: "0.24em",
                 textTransform: "uppercase",
-                color: "#a1a1aa",
+                color: "#70e6a9",
               }}
             >
-              Frontend Blog
+              Notizie · Analisi · Consigli
             </div>
             <div
               style={{
@@ -68,21 +64,22 @@ export default async function Image() {
               <div
                 style={{
                   display: "flex",
-                  fontSize: 72,
-                  lineHeight: 1.04,
-                  fontWeight: 700,
-                  letterSpacing: "-0.05em",
+                  fontSize: 92,
+                  lineHeight: 1,
+                  fontWeight: 900,
+                  letterSpacing: "-0.06em",
+                  textTransform: "uppercase",
                   maxWidth: "92%",
                 }}
               >
-                {siteConfig.name}
+                FANTAKALCIO.IT
               </div>
               <div
                 style={{
                   display: "flex",
                   fontSize: 30,
                   lineHeight: 1.35,
-                  color: "#d4d4d8",
+                  color: "#c6cfdd",
                   maxWidth: "88%",
                 }}
               >
@@ -94,8 +91,9 @@ export default async function Image() {
                 display: "flex",
                 alignItems: "center",
                 gap: "12px",
-                fontSize: 24,
-                color: "#d4d4d8",
+                fontSize: 22,
+                fontWeight: 700,
+                color: "#ffffff",
               }}
             >
               <div
@@ -103,35 +101,14 @@ export default async function Image() {
                   display: "flex",
                   width: "12px",
                   height: "12px",
-                  borderRadius: "9999px",
-                  backgroundColor: "#f4f4f5",
+                  backgroundColor: "#0b8f55",
                 }}
               />
-              Matteo Collina
+              Il fantacalcio, ogni giorno
             </div>
           </div>
-
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              width: "28%",
-            }}
-          >
-            <img
-              src={portraitSrc}
-              alt="Matteo Collina"
-              width={220}
-              height={220}
-              style={{
-                borderRadius: "32px",
-                border: "2px solid rgba(255,255,255,0.12)",
-                objectFit: "cover",
-              }}
-            />
-          </div>
         </div>
+        <div style={{ position: "absolute", right: 0, top: 0, width: "34px", height: "100%", backgroundColor: "#0b8f55" }} />
       </div>
     ),
     size,

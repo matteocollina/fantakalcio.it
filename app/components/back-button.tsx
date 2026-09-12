@@ -28,7 +28,7 @@ export default function BackButton({
     <button
       type="button"
       onClick={handleClick}
-      className="inline-flex items-center rounded-full border border-[var(--accent-border)] bg-[var(--accent-bg)] px-4 py-2 text-sm font-medium text-[var(--accent-fg)] transition-colors hover:border-[var(--accent-hover-border)] hover:bg-[var(--accent-hover-bg)] hover:text-[var(--accent-hover-fg)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--text-muted)]"
+      className="inline-flex items-center bg-[var(--accent-bg)] px-4 py-2 text-xs font-black uppercase tracking-wider text-[var(--accent-fg)] transition-colors hover:bg-[var(--accent-hover-bg)] hover:text-[var(--accent-hover-fg)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--sport)]"
     >
       {label}
     </button>

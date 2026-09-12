@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 import "./globals.css";
 import ThemeToggle from "@/app/components/theme-toggle";
 import { siteConfig } from "@/lib/site";
@@ -17,8 +15,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/favicon-mc.ico",
-    shortcut: "/favicon-mc.ico",
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
   },
   openGraph: {
     type: "website",
@@ -32,7 +30,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: `${siteConfig.name} Open Graph image`,
+        alt: `${siteConfig.name} - anteprima notizie`,
       },
     ],
   },
@@ -50,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const themeScript = `(() => {
-    const storageKey = "mc-blog-theme";
+    const storageKey = "fantakalcio-theme";
     const savedTheme = window.localStorage.getItem(storageKey);
     const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
     document.documentElement.dataset.theme = savedTheme === "light" || savedTheme === "dark" ? savedTheme : systemTheme;
@@ -62,70 +60,45 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="min-h-full bg-[var(--background)] text-[var(--foreground)]">
-        <Script id="google-tag-manager" strategy="afterInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-K4XJP7DS');`}
-        </Script>
-        <Script
-          id="google-gtag-src"
-          src="https://www.googletagmanager.com/gtag/js?id=G-5ZCW8LDWY6"
-          strategy="afterInteractive"
-        />
-        <Script id="google-gtag-config" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-5ZCW8LDWY6');`}
-        </Script>
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-K4XJP7DS"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
-        <div className="mx-auto flex min-h-full w-full max-w-5xl flex-col px-6 py-8 sm:px-10">
-          <header className="mb-12 flex items-center justify-between border-b border-[var(--border)] pb-5">
-            <Link
-              href="/"
-              aria-label={siteConfig.name}
-              className="transition-colors hover:text-[var(--text-tertiary)]"
-            >
-              <>
-                <Image
-                  src="/mc.png"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className="rounded-full border border-[var(--border)] object-cover sm:hidden"
-                />
-                <span className="hidden text-lg font-semibold tracking-tight text-[var(--text-primary)] sm:inline">
-                  {siteConfig.name}
+        <div className="min-h-full">
+          <div className="border-b border-white/10 bg-[var(--masthead)] text-white">
+            <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-2 text-[11px] font-bold uppercase tracking-[0.18em] sm:px-6">
+              <span>Il fantacalcio, ogni giorno</span>
+              <span className="hidden text-white/60 sm:inline">Notizie · Analisi · Consigli</span>
+            </div>
+          </div>
+          <header className="sticky top-0 z-40 border-b border-[var(--border)] bg-[var(--header-bg)] backdrop-blur-xl">
+            <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-5 px-4 py-4 sm:px-6">
+              <Link
+                href="/"
+                aria-label={siteConfig.name}
+                className="group flex items-center gap-3"
+              >
+                <span className="grid size-10 place-items-center bg-[var(--sport)] text-lg font-black italic text-white shadow-[4px_4px_0_var(--masthead)] transition-transform group-hover:-translate-y-0.5">
+                  F
                 </span>
-              </>
-            </Link>
-            <nav aria-label="Main navigation" className="flex items-center gap-6">
-              <Link
-                href="/blog"
-                className="rounded-full px-3 py-2 text-sm font-semibold text-[var(--text-secondary)] transition-colors hover:bg-[var(--accent-bg)] hover:text-[var(--accent-fg)]"
-              >
-                Blog
+                <span className="text-xl font-black uppercase italic tracking-[-0.04em] text-[var(--text-primary)] sm:text-2xl">
+                  fantakalcio<span className="text-[var(--sport)]">.it</span>
+                </span>
               </Link>
+              <nav aria-label="Navigazione principale" className="flex items-center gap-1 sm:gap-2">
               <Link
-                href="/about"
-                className="rounded-full px-3 py-2 text-sm font-semibold text-[var(--text-secondary)] transition-colors hover:bg-[var(--accent-bg)] hover:text-[var(--accent-fg)]"
+                href="/"
+                className="px-2 py-2 text-xs font-extrabold uppercase tracking-[0.12em] text-[var(--text-secondary)] hover:text-[var(--sport)] sm:px-3 sm:text-sm"
               >
-                About
+                Ultime
               </Link>
               <ThemeToggle />
-            </nav>
+              </nav>
+            </div>
           </header>
-          <main className="flex-1">{children}</main>
+          <main className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 sm:py-12">{children}</main>
+          <footer className="mt-16 border-t border-[var(--border)] bg-[var(--masthead)] text-white">
+            <div className="mx-auto flex w-full max-w-7xl flex-col gap-3 px-4 py-8 text-sm sm:flex-row sm:items-center sm:justify-between sm:px-6">
+              <p className="font-black uppercase italic tracking-tight">fantakalcio.it</p>
+              <p className="text-white/55">Notizie e idee per giocare meglio, fino all&apos;ultimo bonus.</p>
+            </div>
+          </footer>
         </div>
       </body>
     </html>

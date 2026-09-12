@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 type Theme = "light" | "dark";
 
-const storageKey = "mc-blog-theme";
+const storageKey = "fantakalcio-theme";
 
 function getPreferredTheme(): Theme {
   if (typeof window === "undefined") {
@@ -57,12 +57,12 @@ export default function ThemeToggle() {
       aria-label={isDark ? "Attiva tema chiaro" : "Attiva tema scuro"}
       aria-pressed={isDark}
       suppressHydrationWarning
-      className="inline-flex items-center gap-2 rounded-full border border-[var(--accent-border)] bg-[var(--surface-strong)] px-3 py-2 text-sm font-semibold text-[var(--text-secondary)] shadow-sm backdrop-blur-sm hover:border-[var(--accent-hover-border)] hover:bg-[var(--surface)] hover:text-[var(--text-primary)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--text-muted)]"
+      className="inline-flex size-9 items-center justify-center border border-[var(--border-strong)] bg-[var(--surface)] text-sm font-bold text-[var(--text-secondary)] hover:border-[var(--sport)] hover:text-[var(--sport)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--sport)]"
     >
       <span aria-hidden="true" className="text-base leading-none">
         {isDark ? "☀" : "☾"}
       </span>
-      <span>{isDark ? "Light" : "Dark"}</span>
+      <span className="sr-only">{isDark ? "Light" : "Dark"}</span>
     </button>
   );
 }

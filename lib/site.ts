@@ -20,7 +20,7 @@ function normalizeSiteUrl(value: string | undefined) {
 
 export const siteConfig = {
   name: "fantakalcio.it",
-  description: "Fantakalcio, blog in italiano dedicato al fantacalcio.",
+  description: "Notizie e approfondimenti sul fantacalcio, ogni giorno.",
   locale: "it_IT",
   siteUrl: normalizeSiteUrl(
     process.env.NEXT_PUBLIC_SITE_URL ??

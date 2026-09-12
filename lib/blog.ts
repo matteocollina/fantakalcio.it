@@ -1,4 +1,5 @@
 import { readFile, readdir } from "node:fs/promises";
+import type { Dirent } from "node:fs";
 import path from "node:path";
 import { unstable_cache } from "next/cache";
 
@@ -129,7 +130,17 @@ function sortCategories(categories: BlogCategory[]) {
 
 const loadAllPostSummaries = unstable_cache(
   async () => {
-    const entries = await readdir(BLOG_DIR, { withFileTypes: true });
+    let entries: Dirent[];
+
+    try {
+      entries = await readdir(BLOG_DIR, { withFileTypes: true });
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code === "ENOENT") {
+        return [];
+      }
+
+      throw error;
+    }
     const posts = await Promise.all(
       entries
         .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
@@ -212,22 +223,14 @@ export async function getAllCategories() {
     for (const tag of post.tags) {
       const slug = slugifyTag(tag);
 
-      if (!slug) {
-        continue;
-      }
+      if (!slug) continue;
 
       const existing = categories.get(slug);
-
       if (existing) {
         existing.count += 1;
-        continue;
+      } else {
+        categories.set(slug, { name: tag, slug, count: 1 });
       }
-
-      categories.set(slug, {
-        name: tag,
-        slug,
-        count: 1,
-      });
     }
   }
 
@@ -241,10 +244,7 @@ export async function getCategoryBySlug(slug: string) {
 
 export async function getPostsByTagSlug(slug: string) {
   const posts = await getAllPostSummaries();
-
-  return posts.filter((post) =>
-    post.tags.some((tag) => slugifyTag(tag) === slug),
-  );
+  return posts.filter((post) => post.tags.some((tag) => slugifyTag(tag) === slug));
 }
 
 export function formatPublishedAt(date: string) {

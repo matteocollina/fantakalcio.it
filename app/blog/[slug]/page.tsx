@@ -77,18 +77,18 @@ export default async function BlogDetailPage(props: PageProps<"/blog/[slug]">) {
   const { previousPost, nextPost } = await getAdjacentPosts(slug);
 
   return (
-    <article className="space-y-8">
+    <article className="mx-auto max-w-5xl space-y-8">
       <BackButton fallbackHref="/blog" />
 
-      <header className="space-y-4 border-b border-[var(--border)] pb-8">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
+      <header className="space-y-4 border-b-4 border-[var(--text-primary)] pb-8">
+        <p className="text-xs font-black uppercase tracking-[0.2em] text-[var(--sport)]">
           {formatPublishedAt(post.publishedAt)}
         </p>
         <div className="space-y-3">
-          <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-[var(--text-primary)]">
+          <h1 className="max-w-4xl text-4xl font-black leading-[1.04] tracking-[-0.045em] text-[var(--text-primary)] sm:text-6xl">
             {post.title}
           </h1>
-          <p className="max-w-3xl text-xl leading-8 text-[var(--text-tertiary)]">
+          <p className="max-w-3xl border-l-4 border-[var(--sport)] pl-4 text-xl font-bold leading-8 text-[var(--text-tertiary)]">
             {post.subtitle}
           </p>
           <p className="max-w-3xl text-lg leading-8 text-[var(--text-secondary)]">
@@ -98,10 +98,7 @@ export default async function BlogDetailPage(props: PageProps<"/blog/[slug]">) {
             <ul className="flex flex-wrap gap-2 pt-2">
               {post.tags.map((tag) => (
                 <li key={tag}>
-                  <Link
-                    href={`/blog/categorie/${slugifyTag(tag)}`}
-                    className="inline-flex rounded-full border border-[var(--accent-border)] bg-[var(--surface-muted)] px-3 py-1 text-xs font-medium uppercase tracking-[0.16em] text-[var(--text-tertiary)] transition-colors hover:border-[var(--accent-hover-border)] hover:bg-[var(--surface-strong)] hover:text-[var(--text-primary)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--text-muted)]"
-                  >
+                  <Link href={`/categorie/${slugifyTag(tag)}`} className="inline-flex bg-[var(--sport-soft)] px-3 py-1.5 text-xs font-black uppercase tracking-[0.14em] text-[var(--sport)] transition-colors hover:bg-[var(--sport)] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--sport)]">
                     {tag}
                   </Link>
                 </li>
@@ -118,12 +115,12 @@ export default async function BlogDetailPage(props: PageProps<"/blog/[slug]">) {
       {previousPost || nextPost ? (
         <nav
           aria-label="Navigazione tra articoli"
-          className="grid gap-3 border-t border-[var(--border)] pt-6 md:grid-cols-2"
+        className="grid gap-3 border-t-4 border-[var(--text-primary)] pt-6 md:grid-cols-2"
         >
           {previousPost ? (
             <Link
               href={`/blog/${previousPost.slug}`}
-              className="group rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3 transition-colors hover:border-[var(--border-strong)] hover:bg-[var(--surface-strong)]"
+              className="group border-l-4 border-[var(--sport)] bg-[var(--surface)] px-5 py-4 transition-colors hover:bg-[var(--surface-strong)]"
             >
               <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-subtle)]">
                 Articolo precedente
@@ -142,7 +139,7 @@ export default async function BlogDetailPage(props: PageProps<"/blog/[slug]">) {
           {nextPost ? (
             <Link
               href={`/blog/${nextPost.slug}`}
-              className="group rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3 text-left transition-colors hover:border-[var(--border-strong)] hover:bg-[var(--surface-strong)] md:justify-self-end"
+              className="group border-r-4 border-[var(--sport)] bg-[var(--surface)] px-5 py-4 text-left transition-colors hover:bg-[var(--surface-strong)] md:justify-self-end"
             >
               <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-subtle)]">
                 Articolo successivo

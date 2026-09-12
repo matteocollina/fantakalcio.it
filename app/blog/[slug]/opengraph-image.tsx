@@ -29,8 +29,7 @@ export default async function Image(props: {
           width: "100%",
           height: "100%",
           display: "flex",
-          background:
-            "radial-gradient(circle at top left, #3f3f46 0%, #18181b 45%, #09090b 100%)",
+          background: "#0c1830",
           color: "#fafafa",
           padding: "56px",
         }}
@@ -40,12 +39,11 @@ export default async function Image(props: {
             display: "flex",
             width: "100%",
             height: "100%",
-            border: "1px solid rgba(255,255,255,0.10)",
-            borderRadius: "32px",
+            borderTop: "12px solid #0b8f55",
             padding: "44px",
             flexDirection: "column",
             justifyContent: "space-between",
-            backgroundColor: "rgba(24,24,27,0.55)",
+            backgroundColor: "#101f39",
           }}
         >
           <div
@@ -57,7 +55,7 @@ export default async function Image(props: {
               color: "#a1a1aa",
             }}
           >
-            Articolo
+            Ultime notizie
           </div>
 
           <div
@@ -72,7 +70,7 @@ export default async function Image(props: {
                 display: "flex",
                 fontSize: 64,
                 lineHeight: 1.05,
-                fontWeight: 700,
+                fontWeight: 900,
                 letterSpacing: "-0.05em",
                 maxWidth: "100%",
               }}
@@ -101,17 +99,16 @@ export default async function Image(props: {
               color: "#e4e4e7",
             }}
           >
-            <div style={{ display: "flex" }}>{siteConfig.name}</div>
+            <div style={{ display: "flex", fontWeight: 900, textTransform: "uppercase" }}>{siteConfig.name}</div>
             <div style={{ display: "flex", gap: "12px" }}>
               {(post?.tags ?? []).slice(0, 2).map((tag) => (
                 <div
                   key={tag}
                   style={{
                     display: "flex",
-                    borderRadius: "9999px",
-                    border: "1px solid rgba(255,255,255,0.12)",
+                    backgroundColor: "#0b8f55",
                     padding: "10px 18px",
-                    color: "#d4d4d8",
+                    color: "#ffffff",
                     fontSize: 18,
                     textTransform: "uppercase",
                     letterSpacing: "0.12em",

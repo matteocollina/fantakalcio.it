@@ -12,12 +12,12 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
       remarkPlugins={[remarkGfm]}
       components={{
         h1: ({ children }) => (
-          <h1 className="pt-4 text-3xl font-semibold tracking-tight text-[var(--text-primary)]">
+          <h1 className="pt-4 text-3xl font-black tracking-tight text-[var(--text-primary)]">
             {children}
           </h1>
         ),
         h2: ({ children }) => (
-          <h2 className="pt-6 text-2xl font-semibold tracking-tight text-[var(--text-primary)]">
+          <h2 className="border-l-4 border-[var(--sport)] pl-4 pt-1 text-2xl font-black tracking-tight text-[var(--text-primary)]">
             {children}
           </h2>
         ),
@@ -44,7 +44,7 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
         ),
         li: ({ children }) => <li className="pl-1">{children}</li>,
         blockquote: ({ children }) => (
-          <blockquote className="border-l-2 border-[var(--border-strong)] pl-5 italic text-[var(--text-tertiary)]">
+          <blockquote className="border-l-4 border-[var(--sport)] bg-[var(--sport-soft)] px-5 py-4 text-lg font-bold italic text-[var(--text-tertiary)]">
             {children}
           </blockquote>
         ),

@@ -1,24 +1,10 @@
 import type { MetadataRoute } from "next";
 
-import {
-  getAllCategories,
-  getAllPostSummaries,
-  getPostsByTagSlug,
-} from "@/lib/blog";
+import { getAllCategories, getAllPostSummaries, getPostsByTagSlug } from "@/lib/blog";
 import { absoluteUrl } from "@/lib/site";
 
-function latestDate(dates: Array<string | Date>) {
-  return dates.reduce((latest, candidate) => {
-    const candidateDate = new Date(candidate);
-    return candidateDate > latest ? candidateDate : latest;
-  }, new Date(0));
-}
-
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [posts, categories] = await Promise.all([
-    getAllPostSummaries(),
-    getAllCategories(),
-  ]);
+  const [posts, categories] = await Promise.all([getAllPostSummaries(), getAllCategories()]);
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
@@ -27,29 +13,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "weekly",
       priority: 1,
     },
-    {
-      url: absoluteUrl("/about"),
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
   ];
-
-  const categoryRoutes = await Promise.all(
-    categories.map(async (category) => {
-      const categoryPosts = await getPostsByTagSlug(category.slug);
-
-      return {
-        url: absoluteUrl(`/blog/categorie/${category.slug}`),
-        lastModified:
-          categoryPosts.length > 0
-            ? latestDate(categoryPosts.map((post) => post.publishedAt))
-            : new Date(),
-        changeFrequency: "weekly" as const,
-        priority: 0.6,
-      };
-    }),
-  );
 
   const postRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
     url: absoluteUrl(`/blog/${post.slug}`),
@@ -57,6 +21,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: "monthly",
     priority: 0.8,
   }));
+
+  const categoryRoutes: MetadataRoute.Sitemap = await Promise.all(
+    categories.map(async (category) => {
+      const categoryPosts = await getPostsByTagSlug(category.slug);
+      return {
+        url: absoluteUrl(`/categorie/${category.slug}`),
+        lastModified: categoryPosts[0]?.publishedAt ? new Date(categoryPosts[0].publishedAt) : new Date(),
+        changeFrequency: "weekly" as const,
+        priority: 0.6,
+      };
+    }),
+  );
 
   return [...staticRoutes, ...categoryRoutes, ...postRoutes];
 }
