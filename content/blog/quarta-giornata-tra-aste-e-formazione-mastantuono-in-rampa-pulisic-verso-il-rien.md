@@ -17,12 +17,13 @@ Sulla trequarti e sugli esterni resta un Milan “in costruzione”: è atteso d
 ## Asta e riparazioni: i nomi che girano (e la filosofia low cost)
 In queste ore si moltiplicano aste e mini-aste di giornata: il tema ricorrente è la caccia al colpo a prezzo basso per completare i reparti, con tanti scambi di strategia tra chi punta su un top e chi preferisce distribuire i crediti.
 
-In attacco continuano a tornare spesso gli stessi profili nei ballottaggi da schierare: **Beto**, **Pellegrino M.**, **Krstovic**, **Malen**, **Thuram** e **Thuram K.**. La logica che emerge è chiara: quando il minutaggio è incerto, la copertura diventa la differenza tra un voto sicuro e il rischio di un “S.V.”.
+In attacco continuano a tornare spesso gli stessi profili nei ballottaggi da schierare: **Beto**, **Pellegrino M.**, **Krstovic**, **Malen** e **Thuram**. La logica che emerge è chiara: quando il minutaggio è incerto, la copertura diventa la differenza tra un voto sicuro e il rischio di un “S.V.”.
 
 ## Le scelte da formazione: ballottaggi e coperture al centro
 Il denominatore comune delle indicazioni che stanno circolando è la gestione dei duelli “uno contro uno” (o al massimo tre nomi), evitando reparti interi. I casi più frequenti:
 
 - A centrocampo, la possibile titolarità di **Pisilli** viene collegata all’assenza di **Konè M.**: è uno dei nomi che stanno entrando nei radar come soluzione di giornata.
+- **Thuram K.** è invece un centrocampista indisponibile: è stato operato per una sindrome femoro-rotulea e il rientro è ipotizzato da gennaio. Non è quindi un’opzione schierabile.
 - In difesa e in ottica modificatore, il tema è il solito: meglio una titolarità “pulita” o un profilo più offensivo ma con rischio panchina?
 - In attacco, diversi dubbi ruotano su combinazioni con **Osmajic**, **Raspadori**, **Neres** e alternative legate agli ultimi slot.
 
