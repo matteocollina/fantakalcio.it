@@ -1,5 +1,6 @@
 import { access, mkdir, mkdtemp, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { execFile } from "node:child_process";
+import { existsSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { promisify } from "node:util";
@@ -29,7 +30,10 @@ const CHANNELS = [
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const OPENAI_MODEL = process.env.OPENAI_MODEL ?? "gpt-5.2";
-const YTSCRIBE_PYTHON = process.env.YTSCRIBE_PYTHON ?? "python3";
+const LOCAL_YTSCRIBE_PYTHON = path.join(process.cwd(), ".venv-ytscribe", "bin", "python");
+const YTSCRIBE_PYTHON =
+  process.env.YTSCRIBE_PYTHON ??
+  (existsSync(LOCAL_YTSCRIBE_PYTHON) ? LOCAL_YTSCRIBE_PYTHON : "python3");
 const YTSCRIBE_SCRIPT_PATH = path.resolve(
   process.env.YTSCRIBE_SCRIPT_PATH ?? ".ytscribe/scripts/ytscribe.py",
 );
@@ -71,6 +75,14 @@ function decodeHtml(value) {
 
 function normalizePlayerName(value) {
   return value.normalize("NFKC").replace(/\s+/g, " ").trim();
+}
+
+function normalizePlayerNameForComparison(value) {
+  return normalizePlayerName(value)
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLocaleLowerCase("it")
+    .replace(/[^\p{L}\p{N}]/gu, "");
 }
 
 function extractTag(xml, tagName) {
@@ -218,6 +230,14 @@ async function fetchTranscripts(videos) {
   } catch {
     throw new Error(
       `Script ytscribe non trovato in ${YTSCRIBE_SCRIPT_PATH}. Clona alexwbend/ytscribe o imposta YTSCRIBE_SCRIPT_PATH.`,
+    );
+  }
+
+  try {
+    await execFileAsync(YTSCRIBE_PYTHON, ["-m", "yt_dlp", "--version"]);
+  } catch {
+    throw new Error(
+      `yt-dlp non disponibile nell'interprete ${YTSCRIBE_PYTHON}. Esegui npm run setup:ytscribe e usa YTSCRIBE_PYTHON=.venv-ytscribe/bin/python.`,
     );
   }
 
@@ -415,10 +435,14 @@ async function generateArticleFromSources(sources, officialPlayerNames) {
 }
 
 function validatePlayerNames(post, officialPlayerNames) {
-  const officialNames = new Set(officialPlayerNames);
+  const officialNameKeys = new Set(
+    officialPlayerNames.map((name) => normalizePlayerNameForComparison(name)),
+  );
   const declaredNames = Array.isArray(post.playerNames) ? post.playerNames : [];
   const invalidNames = declaredNames.filter(
-    (name) => typeof name !== "string" || !officialNames.has(normalizePlayerName(name)),
+    (name) =>
+      typeof name !== "string" ||
+      !officialNameKeys.has(normalizePlayerNameForComparison(name)),
   );
 
   if (invalidNames.length > 0) {
@@ -433,14 +457,15 @@ function validatePlayerNames(post, officialPlayerNames) {
     post.description,
     post.bodyMarkdown,
     ...(Array.isArray(post.tags) ? post.tags : []),
-  ].join("\n").normalize("NFKC");
-  const missingExactNames = declaredNames.filter(
-    (name) => !articleText.includes(normalizePlayerName(name)),
+  ].join("\n");
+  const comparableArticleText = normalizePlayerNameForComparison(articleText);
+  const missingNames = declaredNames.filter(
+    (name) => !comparableArticleText.includes(normalizePlayerNameForComparison(name)),
   );
 
-  if (missingExactNames.length > 0) {
+  if (missingNames.length > 0) {
     throw new Error(
-      `Nomi dichiarati ma non presenti con grafia esatta: ${missingExactNames.join(", ")}. Articolo non pubblicato.`,
+      `Nomi dichiarati ma non presenti nell'articolo: ${missingNames.join(", ")}. Articolo non pubblicato.`,
     );
   }
 }
