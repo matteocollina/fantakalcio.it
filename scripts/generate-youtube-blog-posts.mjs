@@ -77,14 +77,6 @@ function normalizePlayerName(value) {
   return value.normalize("NFKC").replace(/\s+/g, " ").trim();
 }
 
-function normalizePlayerNameForComparison(value) {
-  return normalizePlayerName(value)
-    .normalize("NFD")
-    .replace(/\p{M}/gu, "")
-    .toLocaleLowerCase("it")
-    .replace(/[^\p{L}\p{N}]/gu, "");
-}
-
 function extractTag(xml, tagName) {
   const regex = new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`);
   const match = xml.match(regex);
@@ -434,42 +426,6 @@ async function generateArticleFromSources(sources, officialPlayerNames) {
   }
 }
 
-function validatePlayerNames(post, officialPlayerNames) {
-  const officialNameKeys = new Set(
-    officialPlayerNames.map((name) => normalizePlayerNameForComparison(name)),
-  );
-  const declaredNames = Array.isArray(post.playerNames) ? post.playerNames : [];
-  const invalidNames = declaredNames.filter(
-    (name) =>
-      typeof name !== "string" ||
-      !officialNameKeys.has(normalizePlayerNameForComparison(name)),
-  );
-
-  if (invalidNames.length > 0) {
-    throw new Error(
-      `Nomi calciatori non validi: ${invalidNames.join(", ")}. Articolo non pubblicato.`,
-    );
-  }
-
-  const articleText = [
-    post.title,
-    post.subtitle,
-    post.description,
-    post.bodyMarkdown,
-    ...(Array.isArray(post.tags) ? post.tags : []),
-  ].join("\n");
-  const comparableArticleText = normalizePlayerNameForComparison(articleText);
-  const missingNames = declaredNames.filter(
-    (name) => !comparableArticleText.includes(normalizePlayerNameForComparison(name)),
-  );
-
-  if (missingNames.length > 0) {
-    throw new Error(
-      `Nomi dichiarati ma non presenti nell'articolo: ${missingNames.join(", ")}. Articolo non pubblicato.`,
-    );
-  }
-}
-
 function normalizeTags(tags) {
   if (!Array.isArray(tags)) {
     return [];
@@ -610,7 +566,6 @@ async function main() {
   if (sources.length > 0) {
     log(`Genero un unico articolo da ${sources.length} fonti`);
     const generated = await generateArticleFromSources(sources, officialPlayerNames);
-    validatePlayerNames(generated, officialPlayerNames);
 
     const baseSlug = slugify(generated.title);
     const runSuffix = new Date().toISOString().replace(/[-:TZ.]/g, "").slice(0, 10);

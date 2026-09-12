@@ -1,7 +1,6 @@
 import { readFile, readdir } from "node:fs/promises";
 import type { Dirent } from "node:fs";
 import path from "node:path";
-import { unstable_cache } from "next/cache";
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
 export const POSTS_PER_PAGE = 10;
@@ -128,46 +127,39 @@ function sortCategories(categories: BlogCategory[]) {
   });
 }
 
-const loadAllPostSummaries = unstable_cache(
-  async () => {
-    let entries: Dirent[];
+async function loadAllPostSummaries() {
+  let entries: Dirent[];
 
-    try {
-      entries = await readdir(BLOG_DIR, { withFileTypes: true });
-    } catch (error) {
-      if ((error as NodeJS.ErrnoException).code === "ENOENT") {
-        return [];
-      }
-
-      throw error;
+  try {
+    entries = await readdir(BLOG_DIR, { withFileTypes: true });
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") {
+      return [];
     }
-    const posts = await Promise.all(
-      entries
-        .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
-        .map(async (entry) => {
-          const slug = entry.name.replace(/\.md$/, "");
-          const source = await readFile(path.join(BLOG_DIR, entry.name), "utf8");
-          const post = parseFrontmatter(source);
 
-          return {
-            slug,
-            title: post.title,
-            subtitle: post.subtitle,
-            description: post.description,
-            publishedAt: post.publishedAt,
-            tags: post.tags,
-          };
-        }),
-    );
+    throw error;
+  }
+  const posts = await Promise.all(
+    entries
+      .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+      .map(async (entry) => {
+        const slug = entry.name.replace(/\.md$/, "");
+        const source = await readFile(path.join(BLOG_DIR, entry.name), "utf8");
+        const post = parseFrontmatter(source);
 
-    return sortPosts(posts);
-  },
-  ["blog-posts"],
-  {
-    revalidate: 3600,
-    tags: ["blog-posts"],
-  },
-);
+        return {
+          slug,
+          title: post.title,
+          subtitle: post.subtitle,
+          description: post.description,
+          publishedAt: post.publishedAt,
+          tags: post.tags,
+        };
+      }),
+  );
+
+  return sortPosts(posts);
+}
 
 export async function getAllPostSummaries() {
   return loadAllPostSummaries();
