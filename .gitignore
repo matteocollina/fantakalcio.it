@@ -4,7 +4,6 @@
 /node_modules
 /.ytscribe/
 /.venv-ytscribe/
-/.youtube-cookies.txt
 /.pnp
 .pnp.*
 .yarn/*

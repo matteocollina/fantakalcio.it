@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "setup:ytscribe": "bash ./scripts/setup-ytscribe.sh",
     "generate:youtube-posts": "node ./scripts/generate-youtube-blog-posts.mjs"
   },
   "dependencies": {

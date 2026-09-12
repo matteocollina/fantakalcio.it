@@ -1,13 +1,8 @@
-import { access, mkdir, mkdtemp, readFile, readdir, rm, writeFile } from "node:fs/promises";
-import { execFile } from "node:child_process";
-import { existsSync } from "node:fs";
-import { tmpdir } from "node:os";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { promisify } from "node:util";
 import nextEnv from "@next/env";
 
 const { loadEnvConfig } = nextEnv;
-const execFileAsync = promisify(execFile);
 
 loadEnvConfig(process.cwd());
 
@@ -29,16 +24,13 @@ const CHANNELS = [
 ];
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const YTSCRIBE_API_KEY = process.env.YTSCRIBE;
 const OPENAI_MODEL = "gpt-5.2";
-const LOCAL_YTSCRIBE_PYTHON = path.join(process.cwd(), ".venv-ytscribe", "bin", "python");
-const YTSCRIBE_PYTHON =
-  existsSync(LOCAL_YTSCRIBE_PYTHON) ? LOCAL_YTSCRIBE_PYTHON : "python3";
-const YTSCRIBE_SCRIPT_PATH = path.resolve(".ytscribe/scripts/ytscribe.py");
-const YTSCRIBE_LANG = "it";
 const MAX_VIDEOS_PER_CHANNEL = 5;
 const MAX_SOURCES_PER_RUN = 12;
 const LOOKBACK_HOURS = 36;
 const OPENAI_API_URL = "https://api.openai.com/v1/responses";
+const YTSCRIBE_API_URL = "https://ytscribe.ai/api/transcripts";
 const PLAYER_QUOTES_URL = "https://www.fantacalcio.it/quotazioni-fantacalcio";
 const INJURIES_URL = "https://www.fantacalcio.it/infortunati-serie-a";
 const LATEST_RESULTS_URL =
@@ -46,6 +38,10 @@ const LATEST_RESULTS_URL =
 
 if (!OPENAI_API_KEY) {
   throw new Error("OPENAI_API_KEY mancante.");
+}
+
+if (!YTSCRIBE_API_KEY) {
+  throw new Error("YTSCRIBE mancante.");
 }
 
 function log(message) {
@@ -349,119 +345,95 @@ async function fetchLatestResultsNews() {
   return news;
 }
 
-function parseYtScribeSummary(stdout) {
-  const marker = "---JSON_RESULTS---";
-  const markerIndex = stdout.lastIndexOf(marker);
+async function fetchTranscript(videoId) {
+  const response = await fetch(YTSCRIBE_API_URL, {
+    method: "POST",
+    headers: {
+      authorization: `Bearer ${YTSCRIBE_API_KEY}`,
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({
+      url: `https://youtube.com/watch?v=${videoId}`,
+      language: "it",
+    }),
+  });
 
-  if (markerIndex === -1) {
-    throw new Error("ytscribe non ha restituito il riepilogo JSON atteso.");
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`YTScribe ${videoId}: HTTP ${response.status} ${errorText}`);
   }
 
-  try {
-    return JSON.parse(stdout.slice(markerIndex + marker.length).trim());
-  } catch (error) {
-    throw new Error(`Riepilogo ytscribe non valido: ${error.message}`);
+  const payload = await readJsonResponse(response, `YTScribe ${videoId}`);
+
+  if (payload?.status && !["ok", "success"].includes(payload.status)) {
+    throw new Error(`YTScribe ${videoId}: status inatteso ${payload.status}`);
   }
+
+  const transcript = extractTranscriptFromYtScribePayload(payload?.data ?? payload);
+
+  if (!transcript) {
+    log(`YTScribe ${videoId}: transcript assente nella risposta, salto`);
+    return null;
+  }
+
+  return transcript;
 }
 
-async function fetchTranscripts(videos) {
-  try {
-    await access(YTSCRIBE_SCRIPT_PATH);
-  } catch {
-    throw new Error(
-      `Script ytscribe non trovato in ${YTSCRIBE_SCRIPT_PATH}. Clona alexwbend/ytscribe o imposta YTSCRIBE_SCRIPT_PATH.`,
-    );
+function extractTranscriptFromYtScribePayload(payload) {
+  if (!payload) {
+    return null;
   }
 
-  try {
-    await execFileAsync(YTSCRIBE_PYTHON, ["-m", "yt_dlp", "--version"]);
-  } catch {
-    throw new Error(
-      `yt-dlp non disponibile nell'interprete ${YTSCRIBE_PYTHON}. Esegui npm run setup:ytscribe e usa YTSCRIBE_PYTHON=.venv-ytscribe/bin/python.`,
-    );
+  if (typeof payload === "string") {
+    const normalized = payload.trim();
+    return normalized || null;
   }
 
-  const outputDir = await mkdtemp(path.join(tmpdir(), "fantakalcio-ytscribe-"));
+  if (Array.isArray(payload)) {
+    const combined = payload
+      .map((item) => {
+        if (typeof item === "string") {
+          return item;
+        }
 
-  try {
-    const { stdout, stderr } = await execFileAsync(
-      YTSCRIBE_PYTHON,
-      [
-        YTSCRIBE_SCRIPT_PATH,
-        "--videos",
-        videos.map((video) => video.videoId).join(","),
-        "--format",
-        "json",
-        "--merge",
-        "false",
-        "--timestamps",
-        "false",
-        "--lang",
-        YTSCRIBE_LANG,
-        "--chapters",
-        "false",
-        "--output-dir",
-        outputDir,
-      ],
-      {
-        maxBuffer: 50 * 1024 * 1024,
-        timeout: 15 * 60 * 1000,
-      },
-    );
+        if (typeof item?.text === "string") {
+          return item.text;
+        }
 
-    if (stderr.trim()) {
-      log(`ytscribe: ${stderr.trim()}`);
-    }
+        if (typeof item?.content === "string") {
+          return item.content;
+        }
 
-    const summary = parseYtScribeSummary(stdout);
-    const records = [];
-
-    for (const outputFile of summary.output_files ?? []) {
-      if (path.extname(outputFile).toLowerCase() !== ".json") {
-        continue;
-      }
-
-      const resolvedFile = path.resolve(outputFile);
-      const outputRoot = `${path.resolve(outputDir)}${path.sep}`;
-
-      if (!resolvedFile.startsWith(outputRoot)) {
-        throw new Error(`ytscribe ha indicato un file fuori dalla directory temporanea: ${outputFile}`);
-      }
-
-      const payload = JSON.parse(await readFile(resolvedFile, "utf8"));
-      records.push(...(Array.isArray(payload) ? payload : [payload]));
-    }
-
-    const transcripts = new Map(
-      records
-        .filter(
-          (record) =>
-            typeof record?.id === "string" &&
-            typeof record?.transcript === "string" &&
-            record.transcript.trim(),
-        )
-        .map((record) => [record.id, record.transcript.trim()]),
-    );
-    const failures = new Map(
-      [...(summary.no_subs ?? []), ...(summary.failed ?? [])].map((entry) => [
-        entry.id,
-        entry.error ?? "sottotitoli non disponibili",
-      ]),
-    );
-
-    return { transcripts, failures, aborted: summary.aborted ?? null };
-  } catch (error) {
-    const details = [error.stderr, error.stdout]
-      .filter((value) => typeof value === "string" && value.trim())
-      .join("\n")
+        return "";
+      })
+      .join(" ")
+      .replace(/\s+/g, " ")
       .trim();
 
-    throw new Error(
-      `Esecuzione ytscribe fallita: ${error.message}${details ? `\n${details}` : ""}`,
-    );
-  } finally {
-    await rm(outputDir, { recursive: true, force: true });
+    return combined || null;
   }
+
+  if (typeof payload !== "object") {
+    return null;
+  }
+
+  for (const key of ["text", "transcript", "content", "full_text"]) {
+    if (typeof payload[key] === "string" && payload[key].trim()) {
+      return payload[key].trim();
+    }
+  }
+
+  for (const key of ["segments", "items", "captions", "entries"]) {
+    if (Array.isArray(payload[key])) {
+      const combined = extractTranscriptFromYtScribePayload(payload[key]);
+
+      if (combined) {
+        return combined;
+      }
+    }
+  }
+
+  return null;
 }
 
 async function generateArticleFromSources(
@@ -730,28 +702,23 @@ async function main() {
   );
 
   const sources = [];
-  log(`Recupero ${freshVideos.length} transcript con ytscribe locale`);
-  const transcriptBatch = await fetchTranscripts(freshVideos);
-
-  if (transcriptBatch.aborted) {
-    hasErrors = true;
-    log(
-      `Batch ytscribe interrotto (${transcriptBatch.aborted.kind}): ${transcriptBatch.aborted.reason}`,
-    );
-  }
 
   for (const video of freshVideos) {
-    const transcript = transcriptBatch.transcripts.get(video.videoId);
+    try {
+      log(`Recupero transcript API per ${video.title}`);
+      const transcript = await fetchTranscript(video.videoId);
 
-    if (!transcript) {
+      if (!transcript) {
+        failedVideos += 1;
+        continue;
+      }
+
+      sources.push({ video, transcript });
+    } catch (error) {
       hasErrors = true;
       failedVideos += 1;
-      const reason = transcriptBatch.failures.get(video.videoId) ?? "transcript assente";
-      log(`Transcript non disponibile per ${video.videoId}: ${reason}`);
-      continue;
+      log(`Errore sul video ${video.videoId}: ${error.message}`);
     }
-
-    sources.push({ video, transcript });
   }
 
   if (sources.length > 0) {
