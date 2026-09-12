@@ -1,0 +1,2090 @@
+{
+  "processedVideoIds": {
+    "04LPpj7lQlA": {
+      "slug": "il-software-non-si-vende-si-vendono-soluzioni-e-cambia-tutto-anche-per-chi-fa-fr",
+      "title": "Il software non si vende: si vendono soluzioni (e cambia tutto, anche per chi fa frontend)",
+      "sourceTitle": "Software itself has no value. It's the solutions that are valuable, and that will sell.",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T15:45:31.948Z"
+    },
+    "xGW-g1KIU9M": {
+      "slug": "se-stai-cercando-lavoro-da-developer-costruisci-software-che-riduca-l-attrito-ne",
+      "title": "Se stai cercando lavoro da developer, costruisci software che riduca l’attrito nel tuo lavoro quotidiano",
+      "sourceTitle": "If you're job hunting, build software that removes friction from your own work",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-18T15:59:44.805Z"
+    },
+    "pxMUG3gcoik": {
+      "slug": "friction-max-learning-perche-imparare-frontend-e-piu-facile-quando-smetti-di-ren",
+      "title": "Friction-max learning: perché imparare frontend è più facile quando smetti di renderlo “facile”",
+      "sourceTitle": "How to friction-max your learning with software engineer Jessica Rose [Podcast #216]",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-18T16:00:36.648Z"
+    },
+    "F-d5DyFo3Cg": {
+      "slug": "cosa-spinge-davvero-a-contribuire-all-open-source-anche-quando-non-ne-hai-voglia",
+      "title": "Cosa spinge davvero a contribuire all’open source (anche quando non ne hai voglia)",
+      "sourceTitle": "What motivates people to keep contributing to open source projects?",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-20T08:02:03.225Z"
+    },
+    "WLb0z-TLq48": {
+      "slug": "claude-design-cosa-cambia-davvero-per-chi-fa-ui-prototyping-e-perche-interessa-a",
+      "title": "Claude Design: cosa cambia davvero per chi fa UI prototyping (e perché interessa anche ai frontend)",
+      "sourceTitle": "Claude Design: The Figma Killer",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-20T08:03:07.496Z"
+    },
+    "6XORL8Bsm9w": {
+      "slug": "motivazione-del-lunedi-costruisci-slancio-non-perfezione",
+      "title": "Motivazione del lunedì: costruisci slancio, non perfezione",
+      "sourceTitle": "Here's a little Monday Motivation for you.",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-21T09:58:55.977Z"
+    },
+    "8j6C-3FooN8": {
+      "slug": "l-informazione-non-e-il-collo-di-bottiglia-come-sviluppare-il-fiuto-per-capire-c",
+      "title": "L’informazione non è il collo di bottiglia: come sviluppare il “fiuto” per capire cosa vale la pena imparare",
+      "sourceTitle": "In learning, information often isn't the issue. It's knowing what's useful, and what feels wrong.",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-22T07:28:48.298Z"
+    },
+    "-leIp449qXA": {
+      "slug": "automazioni-no-code-con-zapier-dalla-prima-zap-agli-agenti-ai-senza-perdere-il-c",
+      "title": "Automazioni no‑code con Zapier: dalla prima “Zap” agli agenti AI (senza perdere il controllo)",
+      "sourceTitle": "Automate Your Life in 4 hours – Agent and Automation Zapier Course",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-22T07:30:08.761Z"
+    },
+    "ULS7LHNScHc": {
+      "slug": "zustand-in-react-stato-globale-semplice-selettori-e-performance-senza-impazzire-",
+      "title": "Zustand in React: stato globale semplice, selettori e performance (senza impazzire con Context)",
+      "sourceTitle": "Zustand Crash Course",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-22T07:31:20.847Z"
+    },
+    "jeA-KBv0b68": {
+      "slug": "claude-design-opus-4-7-dal-layout-in-stile-figma-a-prototipi-interattivi-e-ui-qu",
+      "title": "Claude Design (Opus 4.7): dal layout in stile Figma a prototipi interattivi e UI quasi pronte",
+      "sourceTitle": "Claude just got another superpower...",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-22T07:32:07.844Z"
+    },
+    "8Q0FYd3d1Q4": {
+      "slug": "non-e-over-engineering-e-solo-codice-che-non-conosci-ancora",
+      "title": "Non è over‑engineering: è solo codice che non conosci ancora",
+      "sourceTitle": "There is a difference between over-engineered and unfamiliar",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-22T07:32:42.954Z"
+    },
+    "5gllZ-P1PIE": {
+      "slug": "prototipare-una-landing-page-seria-con-claude-design-workflow-design-system-e-it",
+      "title": "Prototipare una landing page “seria” con Claude Design: workflow, design system e iterazione guidata",
+      "sourceTitle": "Claude Design is SICK - Real Landing Page Demo",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-22T07:33:43.284Z"
+    },
+    "ji08ILsXQ7M": {
+      "slug": "un-modello-mentale-per-testare-funzionalita-basate-su-llm-evals-giudici-e-layeri",
+      "title": "Un modello mentale per testare funzionalità basate su LLM: evals, giudici e layering",
+      "sourceTitle": "Your mental model for AI testing: evals, LLM judges, and test layering",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-22T07:34:19.359Z"
+    },
+    "OnLdZrMcgGU": {
+      "slug": "la-domanda-eterna-nel-frontend-ma-chi-puo-relazionarsi-e-come-uscirne-bene",
+      "title": "La domanda eterna nel frontend: “Ma chi può relazionarsi?” (e come uscirne bene)",
+      "sourceTitle": "Ah, the age-old question. Who can relate?",
+      "publishedAt": "2026-04-26",
+      "createdAt": "2026-04-27T08:17:17.598Z"
+    },
+    "38-3cShsQBc": {
+      "slug": "perche-l-ai-spacca-i-team-non-e-solo-una-questione-tecnica-ma-di-identita-e-aspe",
+      "title": "Perché l’AI spacca i team: non è (solo) una questione tecnica, ma di identità e aspettative",
+      "sourceTitle": "We all know AI can be...divisive. Justin lays out a key reason why in his chat with Quincy.",
+      "publishedAt": "2026-04-27",
+      "createdAt": "2026-04-28T08:21:23.888Z"
+    },
+    "cdOJDYXPXQI": {
+      "slug": "deprecazioni-in-chrome-come-vengono-ritirate-le-feature-senza-rompere-il-web",
+      "title": "Deprecazioni in Chrome: come vengono ritirate le feature senza rompere il Web",
+      "sourceTitle": "How Chrome deprecates and removes features",
+      "publishedAt": "2026-04-27",
+      "createdAt": "2026-04-28T08:22:21.085Z"
+    },
+    "KvtFenwD4aw": {
+      "slug": "tsrx-la-svolta-statement-based-per-scrivere-ui-e-perche-cambia-le-regole-del-gio",
+      "title": "TSRX: la svolta “statement-based” per scrivere UI (e perché cambia le regole del gioco rispetto a JSX)",
+      "sourceTitle": "React JSX got a huge upgrade - Say hi to TSRX",
+      "publishedAt": "2026-04-27",
+      "createdAt": "2026-04-28T08:23:28.895Z"
+    },
+    "yG-bGpD38Rw": {
+      "slug": "se-perdessi-tutte-le-competenze-di-programmazione-cosa-reimparerei-oggi-e-cosa-s",
+      "title": "Se perdessi tutte le competenze di programmazione: cosa reimparerei oggi (e cosa smetterei di studiare)",
+      "sourceTitle": "If you suddenly lost all your programming knowledge, what should you focus on learning today?",
+      "publishedAt": "2026-04-29",
+      "createdAt": "2026-04-30T09:33:46.470Z"
+    },
+    "wApaJjvNZFs": {
+      "slug": "cosa-possiamo-imparare-da-un-hackathon-elite-e-applicarlo-subito-ai-progetti-fro",
+      "title": "Cosa possiamo imparare da un hackathon “élite” (e applicarlo subito ai progetti frontend)",
+      "sourceTitle": "Inside Stanford's Elite Student Hackathon (Full Documentary on TreeHacks 2026)",
+      "publishedAt": "2026-04-29",
+      "createdAt": "2026-04-30T09:34:37.192Z"
+    },
+    "R1kiLX-Z-Io": {
+      "slug": "3-pattern-css-per-layout-moderni-piu-due-boost-estetici",
+      "title": "3 pattern CSS per layout moderni (più due “boost” estetici)",
+      "sourceTitle": "Handy CSS layout patterns, and fun ways to elevate them",
+      "publishedAt": "2026-04-29",
+      "createdAt": "2026-04-30T09:35:30.442Z"
+    },
+    "LfLqurgEWh0": {
+      "slug": "preparare-una-sessione-tecnica-che-funzioni-davvero-checklist-pratica-per-parlar",
+      "title": "Preparare una sessione tecnica che funzioni davvero: checklist pratica per parlare a un evento frontend",
+      "sourceTitle": "The annual session prep for Google I/O",
+      "publishedAt": "2026-04-29",
+      "createdAt": "2026-04-30T09:36:01.308Z"
+    },
+    "hKmdToAMQcY": {
+      "slug": "costruire-un-llm-judge-di-base-per-le-tue-eval-regole-oggettive-valutazioni-sogg",
+      "title": "Costruire un “LLM Judge” di base per le tue eval: regole oggettive + valutazioni soggettive",
+      "sourceTitle": "Build a Basic LLM Judge",
+      "publishedAt": "2026-04-29",
+      "createdAt": "2026-04-30T09:36:34.153Z"
+    },
+    "zqvk26ukYKc": {
+      "slug": "github-sotto-stress-downtime-integrita-dei-dati-e-l-effetto-agentic-coding",
+      "title": "GitHub sotto stress: downtime, integrità dei dati e l’effetto “agentic coding”",
+      "sourceTitle": "Github is on the downfall and it's not their fault",
+      "publishedAt": "2026-04-30",
+      "createdAt": "2026-04-30T09:37:14.559Z"
+    },
+    "sioGnGfvHkc": {
+      "slug": "chiudere-l-ai-value-gap-perche-quasi-tutti-sperimentano-e-pochi-monetizzano-e-co",
+      "title": "Chiudere l’AI Value Gap: perché quasi tutti sperimentano e pochi monetizzano (e cosa cambia per chi costruisce prodotti)",
+      "sourceTitle": "Closing the AI Value Gap",
+      "publishedAt": "2026-04-29",
+      "createdAt": "2026-04-30T09:37:56.358Z"
+    },
+    "4nQt1FHaoqg": {
+      "slug": "far-funzionare-il-happy-path-e-solo-l-inizio-progettare-frontend-che-falliscono-",
+      "title": "Far funzionare il “happy path” è solo l’inizio: progettare frontend che falliscono bene",
+      "sourceTitle": "Getting code to do what you want it to do is only a small fraction of the job",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-02T07:28:50.873Z"
+    },
+    "GmtOxMl39Tc": {
+      "slug": "c-nel-2026-perche-conta-ancora-e-come-usarlo-senza-farsi-male",
+      "title": "C++ nel 2026: perché conta ancora (e come usarlo senza farsi male)",
+      "sourceTitle": "Stanford's youngest instructor on InfoSec, AI, catching cheaters - Rachel Fernandez [Podcast #217]",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-02T07:29:51.007Z"
+    },
+    "IBh3Wz5YIR8": {
+      "slug": "chrome-devtools-mcp-server-collegare-il-tuo-coding-agent-a-un-chrome-reale",
+      "title": "Chrome DevTools MCP Server: collegare il tuo coding agent a un Chrome reale",
+      "sourceTitle": "What is the Chrome DevTools MCP server",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-02T07:30:22.847Z"
+    },
+    "tgIKiTOrqOo": {
+      "slug": "nuxt-su-vercel-nel-2026-ottimizzazione-caching-a-regola-d-arte-e-una-nuova-era-p",
+      "title": "Nuxt su Vercel nel 2026: ottimizzazione, caching “a regola d’arte” e una nuova era per contenuti e AI",
+      "sourceTitle": "▲ Community Session: Nuxt on Vercel",
+      "publishedAt": "2026-05-01",
+      "createdAt": "2026-05-02T07:31:16.270Z"
+    },
+    "WFxh3ybr-Pc": {
+      "slug": "niente-scorciatoie-come-partire-nel-2026-da-developer-e-costruire-basi-che-reggo",
+      "title": "Niente scorciatoie: come partire nel 2026 da developer e costruire basi che reggono",
+      "sourceTitle": "Avoid shortcuts, be honest about where you are, and learn for yourself.",
+      "publishedAt": "2026-05-02",
+      "createdAt": "2026-05-03T07:57:29.898Z"
+    },
+    "WKdFAS78sgU": {
+      "slug": "il-downtime-non-e-un-lusso-e-una-parte-del-tuo-flusso-di-lavoro",
+      "title": "Il downtime non è un lusso: è una parte del tuo flusso di lavoro",
+      "sourceTitle": "Quick tip from Homebrew project leader Mike McQuaid: downtime is important. Simple, right?",
+      "publishedAt": "2026-05-03",
+      "createdAt": "2026-05-04T08:25:32.435Z"
+    },
+    "ooYKMPlIlwQ": {
+      "slug": "codepen-2-0-un-editor-tre-box-che-diventa-una-piattaforma-estensibile",
+      "title": "CodePen 2.0: un editor “tre box” che diventa una piattaforma estensibile",
+      "sourceTitle": "So what's CodePen 2.0? Why is it better? Chris Coyier tells you all about it.",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-07T08:29:13.963Z"
+    },
+    "MVsG4agTS94": {
+      "slug": "css-battle-in-10-minuti-3-pattern-3-strategie-e-qualche-trucco-utile-anche-fuori",
+      "title": "CSS Battle in 10 minuti: 3 pattern, 3 strategie (e qualche trucco utile anche “fuori gara”)",
+      "sourceTitle": "Frontend developer takes on CSS Battles - 10-minute challenge",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-07T08:29:45.436Z"
+    },
+    "9TsVbyoJRbA": {
+      "slug": "migrare-a-react-native-senza-settimane-di-attrito-brownfield-setup-rapido-e-ai-i",
+      "title": "Migrare a React Native senza settimane di attrito: brownfield, setup rapido e AI in supporto",
+      "sourceTitle": "What if React Native migration didn’t take weeks?",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-07T08:30:17.272Z"
+    },
+    "hf0bUj_W8i0": {
+      "slug": "agentic-ai-su-vercel-architettura-pratica-per-agenti-che-fanno-cose-non-solo-cha",
+      "title": "Agentic AI su Vercel: architettura pratica per agenti che “fanno cose” (non solo chat)",
+      "sourceTitle": "Agentic AI with Vercel: Saltbox One",
+      "publishedAt": "2026-05-06",
+      "createdAt": "2026-05-07T08:31:04.849Z"
+    },
+    "UH2XXGPh0N0": {
+      "slug": "quando-il-logo-era-un-illustrazione-cosa-ci-insegna-il-primo-marchio-di-apple",
+      "title": "Quando il logo era un’illustrazione: cosa ci insegna il primo marchio di Apple",
+      "sourceTitle": "Apple's first logo was...complicated",
+      "publishedAt": "2026-05-09",
+      "createdAt": "2026-05-10T08:04:55.986Z"
+    },
+    "A1C0CZGScpc": {
+      "slug": "react-resta-lo-standard-perche-e-cosi-diffuso-e-come-ridurre-davvero-la-compless",
+      "title": "React resta lo standard: perché è così diffuso (e come ridurre davvero la complessità)",
+      "sourceTitle": "Deleting In 24 Hours",
+      "publishedAt": "2026-05-09",
+      "createdAt": "2026-05-10T08:06:02.961Z"
+    },
+    "Lkyr4k0qmF4": {
+      "slug": "perche-molte-big-app-scelgono-il-web-anche-quando-potrebbero-fare-nativo",
+      "title": "Perché molte “big app” scelgono il web (anche quando potrebbero fare nativo)",
+      "sourceTitle": "Why big apps choose web over native",
+      "publishedAt": "2026-05-10",
+      "createdAt": "2026-05-11T09:34:16.829Z"
+    },
+    "i5yJ_aJkb7o": {
+      "slug": "react-server-components-promessa-di-performance-realta-di-superficie-d-attacco",
+      "title": "React Server Components: promessa di performance, realtà di superficie d’attacco",
+      "sourceTitle": "RSC was a mistake and everyone knew it",
+      "publishedAt": "2026-05-11",
+      "createdAt": "2026-05-11T09:35:26.504Z"
+    },
+    "7HKot-brXFE": {
+      "slug": "aws-certified-cloud-practitioner-clf-c02-nel-2026-cosa-studiare-davvero-e-come-p",
+      "title": "AWS Certified Cloud Practitioner (CLF-C02) nel 2026: cosa studiare davvero e come prepararti senza perdere tempo",
+      "sourceTitle": "AWS Certified Cloud Practitioner Certification Course 2026 (CLF-C02) - Pass the Exam!",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-15T08:46:11.245Z"
+    },
+    "ETQjANMlkWo": {
+      "slug": "se-google-si-fosse-chiamato-backrub-una-lezione-di-ux-naming-e-link-graph-per-ch",
+      "title": "Se Google si fosse chiamato Backrub: una lezione di UX, naming e “link graph” per chi fa frontend",
+      "sourceTitle": "Google almost had a very different name (and functionality)...",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-15T08:46:55.056Z"
+    },
+    "5P-7lIqn1lI": {
+      "slug": "css-text-box-finalmente-testo-senza-spazio-fantasma-sopra-e-sotto",
+      "title": "CSS text-box: finalmente testo senza “spazio fantasma” sopra e sotto",
+      "sourceTitle": "New CSS text-box Property Is A Game Changer",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-15T08:47:45.361Z"
+    },
+    "gwTQLZSIlsU": {
+      "slug": "una-singola-pr-puo-compromettere-la-tua-supply-chain-anatomia-di-un-attacco-al-r",
+      "title": "Una singola PR può compromettere la tua supply chain: anatomia di un attacco al registry npm (e come ridurre i rischi)",
+      "sourceTitle": "A single PR just hijacked the NPM registry...",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-15T08:48:24.591Z"
+    },
+    "sZnP4PYySfI": {
+      "slug": "invoker-commands-aprire-e-chiudere-un-dialog-senza-javascript",
+      "title": "Invoker commands: aprire e chiudere un <dialog> senza JavaScript",
+      "sourceTitle": "Invoker commands 😍",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-15T08:48:44.135Z"
+    },
+    "dd-SfG-aOFo": {
+      "slug": "testare-in-modo-affidabile-le-skill-dei-tuoi-ai-agent-l-approccio-di-skill-gym",
+      "title": "Testare in modo affidabile le “skill” dei tuoi AI Agent: l’approccio di Skill Gym",
+      "sourceTitle": "How Can I Test My AI Agent Skills Reliably?",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-15T08:49:20.289Z"
+    },
+    "B6f5ikY4Psg": {
+      "slug": "costruire-un-giudice-llm-davvero-affidabile-etichette-esperte-metriche-giuste-e-",
+      "title": "Costruire un “giudice” LLM davvero affidabile: etichette esperte, metriche giuste e test finali",
+      "sourceTitle": "Build an expert LLM judge",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-15T08:50:07.198Z"
+    },
+    "Cf9LYv1q6ic": {
+      "slug": "prepararsi-a-un-evento-dev-senza-stress-checklist-essenziale-per-chi-lavora-sul-",
+      "title": "Prepararsi a un evento dev senza stress: checklist essenziale per chi lavora sul frontend",
+      "sourceTitle": "Dont mind Oliver, he's just getting ready for #GoogleIO",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-15T08:50:34.703Z"
+    },
+    "D13Q4Z7-4Oo": {
+      "slug": "npm-e-l-illusione-della-fiducia-cosa-ci-insegna-l-ultimo-worm-nella-supply-chain",
+      "title": "NPM e l’illusione della fiducia: cosa ci insegna l’ultimo worm nella supply chain",
+      "sourceTitle": "NPM was a mistake and we all fell for it",
+      "publishedAt": "2026-05-14",
+      "createdAt": "2026-05-15T08:51:18.618Z"
+    },
+    "MxaIP40tPCQ": {
+      "slug": "i-primi-giorni-in-un-nuovo-team-la-fiducia-e-un-prerequisito-tecnico",
+      "title": "I primi giorni in un nuovo team: la fiducia è un prerequisito tecnico",
+      "sourceTitle": "Building trust at a new job is key - and so is being someone people actually want to work with",
+      "publishedAt": "2026-05-16",
+      "createdAt": "2026-05-17T08:16:40.541Z"
+    },
+    "8C-lYCzCVX4": {
+      "slug": "netflix-e-nata-da-una-penale-di-ritardo-una-lezione-di-ux-che-vale-per-ogni-fron",
+      "title": "Netflix è nata da una penale di ritardo: una lezione di UX che vale per ogni frontend",
+      "sourceTitle": "Netflix was created because of a late fee - thanks, Blockbuster!",
+      "publishedAt": "2026-05-17",
+      "createdAt": "2026-05-18T09:55:36.185Z"
+    },
+    "2-ZqK1GVQ5U": {
+      "slug": "manus-ai-per-developer-frontend-quando-l-ai-smette-di-rispondere-e-inizia-a-lavo",
+      "title": "Manus AI per developer frontend: quando l’AI smette di “rispondere” e inizia a lavorare",
+      "sourceTitle": "Manus AI – Complete Course for Developers",
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-20T09:25:25.208Z"
+    },
+    "l0fEgTBT50M": {
+      "slug": "non-provare-a-farcela-da-solo-costruisci-una-community-di-supporto-e-vedrai-quan",
+      "title": "Non provare a farcela da solo: costruisci una community di supporto (e vedrai quanto diventa tutto più semplice)",
+      "sourceTitle": "Don't try to go it alone - build up a community of supporters. Life will be much easier.",
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-20T09:25:58.165Z"
+    },
+    "hPuXilV9rLw": {
+      "slug": "connect-four-con-solo-css-quando-lo-styling-diventa-logica",
+      "title": "Connect Four con solo CSS: quando lo styling diventa logica",
+      "sourceTitle": "Connect four with CSS-only",
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-20T09:26:34.410Z"
+    },
+    "QOdCAV0xfEc": {
+      "slug": "codex-e-claude-co-work-agenti-ai-che-automatizzano-anche-il-non-codice-senza-usc",
+      "title": "Codex e Claude Co‑work: agenti AI che automatizzano anche il “non‑codice” (senza uscire dal tuo flusso di lavoro)",
+      "sourceTitle": "Using Claude Cowork and Codex for Automating ANY Business Task",
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-20T09:27:31.108Z"
+    },
+    "h-rb6faAd1A": {
+      "slug": "pronti-per-google-i-o-come-prepararsi-da-frontend-senza-perdere-tempo",
+      "title": "Pronti per Google I/O: come prepararsi da frontend senza perdere tempo",
+      "sourceTitle": "#GoogleIO officially kicks off tomorrow!",
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-20T09:28:04.729Z"
+    },
+    "VcDRfqXHDDE": {
+      "slug": "quando-i-visitatori-non-sono-piu-persone-progettare-esperienze-per-ai-agent",
+      "title": "Quando i “visitatori” non sono più persone: progettare esperienze per AI agent",
+      "sourceTitle": "The AI Agent Boom",
+      "publishedAt": "2026-05-19",
+      "createdAt": "2026-05-20T09:28:40.284Z"
+    },
+    "1SKV4B_WPkg": {
+      "slug": "perche-lo-sviluppatore-e-finito-in-bancarotta-una-micro-lezione-su-modelli-di-bu",
+      "title": "Perché lo sviluppatore è finito in bancarotta? Una micro-lezione su modelli di business (e debito tecnico) per frontend",
+      "sourceTitle": "Why did the dev go broke?",
+      "publishedAt": "2026-05-20",
+      "createdAt": "2026-05-21T09:35:06.472Z"
+    },
+    "1qduzphMJHs": {
+      "slug": "5-proprieta-css-sottovalutate-che-migliorano-subito-ui-e-leggibilita",
+      "title": "5 proprietà CSS sottovalutate che migliorano subito UI e leggibilità",
+      "sourceTitle": "5 underrated CSS properties every developer should know",
+      "publishedAt": "2026-05-20",
+      "createdAt": "2026-05-21T09:36:03.527Z"
+    },
+    "Po15VFvk7Fw": {
+      "slug": "europa-e-ai-engineering-quando-la-narrazione-non-regge-piu",
+      "title": "Europa e AI engineering: quando la narrazione non regge più",
+      "sourceTitle": "The AI Narrative Violation",
+      "publishedAt": "2026-05-20",
+      "createdAt": "2026-05-21T09:37:05.119Z"
+    },
+    "kpvJG2jT9SA": {
+      "slug": "automatizzare-il-lavoro-noioso-con-un-support-agent-perche-migliora-davvero-la-v",
+      "title": "Automatizzare il “lavoro noioso” con un support agent: perché migliora davvero la vita del team",
+      "sourceTitle": "Automate the Boring Stuff",
+      "publishedAt": "2026-05-20",
+      "createdAt": "2026-05-21T09:37:50.244Z"
+    },
+    "rN4qvA2K8lA": {
+      "slug": "tempo-e-attenzione-scegli-attivita-importanti-piacevoli-o-entrambe",
+      "title": "Tempo e attenzione: scegli attività importanti, piacevoli (o entrambe)",
+      "sourceTitle": "In life, things should be important or enjoyable - or ideally both",
+      "publishedAt": "2026-05-23",
+      "createdAt": "2026-05-24T08:25:21.611Z"
+    },
+    "HdCc-KezQPk": {
+      "slug": "siti-agent-ready-progettare-ui-e-html-per-l-era-degli-agenti",
+      "title": "Siti “agent-ready”: progettare UI e HTML per l’era degli agenti",
+      "sourceTitle": "Build your website for the agentic era",
+      "publishedAt": "2026-05-22",
+      "createdAt": "2026-05-24T08:26:00.281Z"
+    },
+    "y-uopI6VtE4": {
+      "slug": "quando-vendi-un-solo-prodotto-e-ti-basta-per-partire-la-lezione-frontend-dei-pri",
+      "title": "Quando vendi un solo prodotto (e ti basta per partire): la lezione “frontend” dei primi giorni di Amazon",
+      "sourceTitle": "In the beginning, Amazon sold...1 book. In its first week. What a start.",
+      "publishedAt": "2026-05-24",
+      "createdAt": "2026-05-25T09:59:27.453Z"
+    },
+    "ti2TI0HZe1c": {
+      "slug": "perche-in-tanti-stanno-migrando-a-rust-e-cosa-c-entra-il-frontend",
+      "title": "Perché in tanti stanno migrando a Rust (e cosa c’entra il frontend)",
+      "sourceTitle": "Everyone is migrating to Rust and so do you soon",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-25T10:00:39.213Z"
+    },
+    "y8aYytIyzqs": {
+      "slug": "quando-il-lavoro-ti-consuma-confini-salute-e-sostenibilita-anche-per-chi-fa-fron",
+      "title": "Quando il lavoro ti consuma: confini, salute e sostenibilità (anche per chi fa frontend)",
+      "sourceTitle": "Is your job costing you your health?",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-26T09:45:24.755Z"
+    },
+    "VG_HKh-zfOs": {
+      "slug": "prototipare-un-gioco-in-three-js-in-pochi-giorni-senza-impazzire-loop-semplice-s",
+      "title": "Prototipare un gioco in Three.js in pochi giorni (senza impazzire): loop semplice, shader “wow” e un editor in-game",
+      "sourceTitle": "Three.js Game Development & Claude Code is NUTS",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-26T09:46:10.695Z"
+    },
+    "8KB6AgtLL80": {
+      "slug": "il-software-mancante-cosa-cambia-davvero-quando-costruire-diventa-quasi-gratis",
+      "title": "Il software mancante: cosa cambia davvero quando costruire diventa (quasi) gratis",
+      "sourceTitle": "The Missing Software",
+      "publishedAt": "2026-05-25",
+      "createdAt": "2026-05-26T09:47:27.213Z"
+    },
+    "J6t5ev2Z9yk": {
+      "slug": "diventare-developer-per-sbaglio-cosa-cambia-quando-hai-spazio-e-un-problema-conc",
+      "title": "Diventare developer “per sbaglio”: cosa cambia quando hai spazio (e un problema concreto) da risolvere",
+      "sourceTitle": "How Jessica \"accidentally\" became a developer while living and working in Japan",
+      "publishedAt": "2026-05-31",
+      "createdAt": "2026-06-01T11:25:42.246Z"
+    },
+    "VeE8ntqN5gc": {
+      "slug": "claude-opus-4-8-il-piccolo-aggiornamento-che-racconta-dove-si-vince-davvero-nell",
+      "title": "Claude Opus 4.8: il “piccolo” aggiornamento che racconta dove si vince davvero nell’AI (spoiler: non solo nei benchmark)",
+      "sourceTitle": "Anthropic keeps winning with average models",
+      "publishedAt": "2026-06-01",
+      "createdAt": "2026-06-01T11:26:27.086Z"
+    },
+    "nVD3pUEaTjU": {
+      "slug": "instagram-e-la-lezione-piu-utile-per-chi-fa-frontend-crescere-togliendo-non-aggi",
+      "title": "Instagram e la lezione più utile per chi fa frontend: crescere togliendo, non aggiungendo",
+      "sourceTitle": "Did you know...Instagram didn't start off as a photo-sharing app?",
+      "publishedAt": "2026-06-01",
+      "createdAt": "2026-06-02T10:16:21.836Z"
+    },
+    "ihKwf4Xuw9s": {
+      "slug": "lasernuke-costruire-e-testare-un-mini-gioco-multiplayer-in-three-js-senza-impazz",
+      "title": "LaserNuke: costruire (e testare) un mini‑gioco multiplayer in Three.js senza impazzire",
+      "sourceTitle": "Live Testing my Three.js Game - LaserNuke (Come play)",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-02T10:17:15.735Z"
+    },
+    "Ex8ZhnOAXcI": {
+      "slug": "webmcp-dare-strumenti-ufficiali-agli-agenti-ai-direttamente-nella-tua-pagina",
+      "title": "WebMCP: dare strumenti “ufficiali” agli agenti AI direttamente nella tua pagina",
+      "sourceTitle": "Take control of AI agents on your site with WebMCP #GoogleIO",
+      "publishedAt": "2026-06-01",
+      "createdAt": "2026-06-02T10:17:46.075Z"
+    },
+    "qrpH-b067uo": {
+      "slug": "webmcp-strumenti-strutturati-per-far-capire-davvero-le-intenzioni-complesse-agli",
+      "title": "WebMCP: strumenti strutturati per far capire (davvero) le intenzioni complesse agli agenti",
+      "sourceTitle": "Simplify complex user intents with WebMCP #GoogleIO",
+      "publishedAt": "2026-06-01",
+      "createdAt": "2026-06-02T10:18:30.132Z"
+    },
+    "-sYDCt_NFIM": {
+      "slug": "piu-impari-piu-diventi-curioso-usare-la-curiosita-come-motore-per-crescere-nel-f",
+      "title": "Più impari, più diventi curioso: usare la curiosità come motore per crescere nel frontend",
+      "sourceTitle": "Sometimes, the more you learn about something, the more curious you become. Follow that curiosity.",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-03T10:52:25.243Z"
+    },
+    "MnG0ugK2JAI": {
+      "slug": "slack-ai-agent-in-node-js-qualifica-automaticamente-nuovi-membri-con-openai-slac",
+      "title": "Slack AI Agent in Node.js: qualifica automaticamente nuovi membri con OpenAI, Slack API e PostgreSQL",
+      "sourceTitle": "Build Your Own AI Agent – Full Course with OpenAI, Langchain, Render Deployment",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-03T10:53:19.886Z"
+    },
+    "t3my5ByUhFU": {
+      "slug": "il-tool-che-uso-per-rendere-il-codice-ai-generated-davvero-manutenibile",
+      "title": "Il tool che uso per rendere il codice “AI-generated” davvero manutenibile",
+      "sourceTitle": "I Won’t Use AI Without This Tool",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-03T10:54:06.632Z"
+    },
+    "IEwfBBaLxGA": {
+      "slug": "modern-web-guidance-in-chrome-best-practice-e-fallback-cross-browser-direttament",
+      "title": "Modern Web Guidance in Chrome: best practice e fallback cross‑browser direttamente nei tuoi coding agent",
+      "sourceTitle": "Chrome's new web dev tool: Modern Web Guidance #GoogleIO",
+      "publishedAt": "2026-06-02",
+      "createdAt": "2026-06-03T10:54:44.854Z"
+    },
+    "FVgbs2wvKmE": {
+      "slug": "la-prima-webcam-della-storia-un-hack-da-ufficio-nato-per-il-caffe",
+      "title": "La prima webcam della storia? Un hack da ufficio nato per… il caffè",
+      "sourceTitle": "The first webcam was invented to watch...coffee?",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-05T09:39:48.730Z"
+    },
+    "4dtP6NjRNHQ": {
+      "slug": "css-nesting-due-trappole-comuni-ampersand-e-specificita",
+      "title": "CSS Nesting: due trappole comuni (ampersand e specificità)",
+      "sourceTitle": "Two CSS nesting gotchas",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-05T09:40:22.775Z"
+    },
+    "LaHlz_OkDxY": {
+      "slug": "sai-davvero-riconoscere-un-interfaccia-stonata-un-test-pratico-per-allenare-l-oc",
+      "title": "Sai davvero riconoscere un’interfaccia “stonata”? Un test pratico per allenare l’occhio UI",
+      "sourceTitle": "This Tool Tests your UI Design Skills",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-05T09:41:11.655Z"
+    },
+    "kFi1yuGlCcA": {
+      "slug": "emulare-capacita-dei-dispositivi-con-chrome-devtools-per-test-automatizzati-guid",
+      "title": "Emulare capacità dei dispositivi con Chrome DevTools (per test automatizzati guidati da agenti)",
+      "sourceTitle": "Emulate device capabilities with Chrome DevTools for agents",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-05T09:41:54.003Z"
+    },
+    "SOrOKQOHBDg": {
+      "slug": "air-imbottiglia-gli-asset-creativi-un-workflow-moderno-tra-approvazioni-distribu",
+      "title": "Air “imbottiglia” gli asset creativi: un workflow moderno tra approvazioni, distribuzione e AI",
+      "sourceTitle": "You can just bottle Air | VTV Cribs",
+      "publishedAt": "2026-06-04",
+      "createdAt": "2026-06-05T09:42:28.367Z"
+    },
+    "XFBdKrbgo5U": {
+      "slug": "verso-ship-2026-cosa-aspettarsi-dalla-prossima-agent-cloud",
+      "title": "Verso Ship 2026: cosa aspettarsi dalla prossima “agent cloud”",
+      "sourceTitle": "What Are Vercel Engineers Building for Ship 2026?",
+      "publishedAt": "2026-06-03",
+      "createdAt": "2026-06-05T09:42:54.852Z"
+    },
+    "je6m7tIiVPw": {
+      "slug": "immagini-in-markdown-senza-stress-figure-html-con-alt-e-didascalia-generate-via-",
+      "title": "Immagini in Markdown senza stress: figure HTML con alt e didascalia generate via AI (vincolate da JSON Schema)",
+      "sourceTitle": "Fix markdown image syntax with AI and JSON schemas #GoogleIO",
+      "publishedAt": "2026-06-05",
+      "createdAt": "2026-06-06T08:29:56.943Z"
+    },
+    "5bL1WhHj668": {
+      "slug": "organizzare-un-hackathon-enorme-senza-bruciarsi-e-perche-ne-vale-la-pena",
+      "title": "Organizzare un hackathon enorme senza bruciarsi (e perché ne vale la pena)",
+      "sourceTitle": "Organizing a huge hackathon like TreeHacks is no small feat...but for Rachel, it was so worth it.",
+      "publishedAt": "2026-06-06",
+      "createdAt": "2026-06-07T08:51:37.109Z"
+    },
+    "j6hnjNhx_MM": {
+      "slug": "web-scraping-senza-impazzire-estrarre-dati-puliti-con-un-api-e-usarli-in-un-prog",
+      "title": "Web scraping senza impazzire: estrarre dati “puliti” con un’API (e usarli in un progetto Node)",
+      "sourceTitle": "Web Scraping for Beginners –  Extract Data with an API",
+      "publishedAt": "2026-06-08",
+      "createdAt": "2026-06-10T09:52:35.806Z"
+    },
+    "7rxOOFvwU60": {
+      "slug": "11-nuove-feature-javascript-gia-utilizzabili-che-migliorano-davvero-il-codice",
+      "title": "11 nuove feature JavaScript (già utilizzabili) che migliorano davvero il codice",
+      "sourceTitle": "11 New JS Features Your AI Doesn’t Even Know About",
+      "publishedAt": "2026-06-09",
+      "createdAt": "2026-06-10T09:53:22.006Z"
+    },
+    "0pgCBV8CTZY": {
+      "slug": "il-freno-d-emergenza-dell-ai-tra-auto-miglioramento-trappola-dei-licenziamenti-e",
+      "title": "Il freno d’emergenza dell’AI: tra auto-miglioramento, “trappola dei licenziamenti” e ROI che non arriva",
+      "sourceTitle": "Anthropic is starting to panic…",
+      "publishedAt": "2026-06-09",
+      "createdAt": "2026-06-10T09:54:10.731Z"
+    },
+    "-K72Be_9T5I": {
+      "slug": "quando-l-ai-non-sa-progettare-perche-certi-layout-stampati-vengono-male-e-come-r",
+      "title": "Quando l’AI “non sa progettare”: perché certi layout stampati vengono male (e come rimetterli in riga)",
+      "sourceTitle": "When AI Can't Design",
+      "publishedAt": "2026-06-10",
+      "createdAt": "2026-06-10T09:54:59.759Z"
+    },
+    "Qou3TeYdEw4": {
+      "slug": "fallow-il-controllo-qualita-istantaneo-per-tenere-in-ordine-il-codice-anche-quan",
+      "title": "Fallow: il controllo qualità “istantaneo” per tenere in ordine il codice (anche quando usi l’AI)",
+      "sourceTitle": "Easily Fix AI Slop With This Amazing Tool",
+      "publishedAt": "2026-06-11",
+      "createdAt": "2026-06-12T10:05:24.783Z"
+    },
+    "1PBRhm5ZnjU": {
+      "slug": "claude-fable-un-modello-frontier-con-il-freno-a-mano-tirato-e-perche-interessa-d",
+      "title": "Claude Fable: un modello “frontier” con il freno a mano tirato (e perché interessa davvero chi scrive codice)",
+      "sourceTitle": "Anthropic begged the world to stop AI… then shipped this",
+      "publishedAt": "2026-06-11",
+      "createdAt": "2026-06-12T10:06:09.923Z"
+    },
+    "d_-hiils74Y": {
+      "slug": "media-query-senza-media-query-come-potrebbero-cambiare-presto-le-condizioni-in-c",
+      "title": "Media query senza media query? Come potrebbero cambiare presto le condizioni in CSS",
+      "sourceTitle": "Media queries might look very different soon.",
+      "publishedAt": "2026-06-11",
+      "createdAt": "2026-06-12T10:06:36.600Z"
+    },
+    "TwVgw7jVYxI": {
+      "slug": "claude-fable-5-un-salto-enorme-per-il-coding-agentico-ma-con-costo-e-guardrail-c",
+      "title": "Claude Fable 5: un salto enorme per il coding “agentico”, ma con costo e guardrail che cambiano le regole",
+      "sourceTitle": "Claude Mythos 5 you need to a millionaire to use it",
+      "publishedAt": "2026-06-11",
+      "createdAt": "2026-06-12T10:07:21.975Z"
+    },
+    "MrnOWLtCLas": {
+      "slug": "candidature-universitarie-e-lavorative-smetti-di-elencare-statistiche-e-inizia-a",
+      "title": "Candidature universitarie e lavorative: smetti di elencare “statistiche” e inizia a vendere ciò che ti rende unico",
+      "sourceTitle": "If you're working on a college or job application, think about this: what makes you uniquely you?",
+      "publishedAt": "2026-06-12",
+      "createdAt": "2026-06-13T08:53:30.972Z"
+    },
+    "6dmo_5qGLg4": {
+      "slug": "quando-un-ai-sparisce-da-un-giorno-all-altro-cosa-ci-insegna-un-blocco-imposto-d",
+      "title": "Quando un’AI “sparisce” da un giorno all’altro: cosa ci insegna un blocco imposto dall’alto",
+      "sourceTitle": "BREAKING: Big Daddy Government Protects us from Fable and Mythos",
+      "publishedAt": "2026-06-13",
+      "createdAt": "2026-06-13T08:53:59.785Z"
+    },
+    "X9njWTX5TMI": {
+      "slug": "chrome-e-ai-nel-2026-webmcp-built-in-ai-apis-e-skills-per-esperienze-agentiche",
+      "title": "Chrome e AI nel 2026: WebMCP, Built‑in AI APIs e Skills per esperienze agentiche",
+      "sourceTitle": "Top 3 AI platform updates from Google I/O 2026",
+      "publishedAt": "2026-06-12",
+      "createdAt": "2026-06-13T08:54:30.873Z"
+    },
+    "9z_7WC8n5sY": {
+      "slug": "mi-piacciono-i-computer-e-una-motivazione-valida-per-lavorare-nel-tech",
+      "title": "«Mi piacciono i computer» è una motivazione valida per lavorare nel tech",
+      "sourceTitle": "\"I just like computers\" - sounds like reason enough to work in tech, doesn't it?",
+      "publishedAt": "2026-06-14",
+      "createdAt": "2026-06-15T11:57:18.426Z"
+    },
+    "vj68el9hRvU": {
+      "slug": "ci-cd-self-healing-con-ai-quando-la-pipeline-fallisce-e-la-fix-arriva-in-pull-re",
+      "title": "CI/CD “self-healing” con AI: quando la pipeline fallisce e la fix arriva in Pull Request",
+      "sourceTitle": "Build a Self-Healing CI/CD Pipeline with AI",
+      "publishedAt": "2026-06-15",
+      "createdAt": "2026-06-16T07:34:37.730Z"
+    },
+    "ey_GaPdC9zk": {
+      "slug": "fable-5-ritirato-in-72-ore-quando-la-sicurezza-di-un-modello-diventa-un-problema",
+      "title": "Fable 5 ritirato in 72 ore: quando la “sicurezza” di un modello diventa un problema di prodotto",
+      "sourceTitle": "One man just liberated Fable... and now it’s illegal",
+      "publishedAt": "2026-06-15",
+      "createdAt": "2026-06-16T07:35:20.102Z"
+    },
+    "4AAiTP1B8wA": {
+      "slug": "fedcm-la-nuova-frontiera-del-login-federato-mediato-dal-browser",
+      "title": "FedCM: la nuova frontiera del login federato mediato dal browser",
+      "sourceTitle": "What is the Federated Credential Management API (FedCM)?",
+      "publishedAt": "2026-06-15",
+      "createdAt": "2026-06-16T07:36:00.245Z"
+    },
+    "oBZNKSyytOo": {
+      "slug": "le-3-novita-di-ai-tooling-in-chrome-che-cambiano-davvero-il-lavoro-quotidiano-de",
+      "title": "Le 3 novità di AI tooling in Chrome che cambiano davvero il lavoro quotidiano dei frontend",
+      "sourceTitle": "Top 3 AI tooling updates from Google I/O 2026",
+      "publishedAt": "2026-06-15",
+      "createdAt": "2026-06-16T07:36:25.931Z"
+    },
+    "tHhiB1kA5Zw": {
+      "slug": "imparare-frontend-quando-ti-senti-non-abbastanza-l-unico-vero-fallimento-e-molla",
+      "title": "Imparare frontend quando ti senti “non abbastanza”: l’unico vero fallimento è mollare",
+      "sourceTitle": "Learning a new skill is tough. But as Jessica says, the only way to fail is to stop & not come back.",
+      "publishedAt": "2026-06-16",
+      "createdAt": "2026-06-17T10:49:12.801Z"
+    },
+    "BCD6oUZp4bc": {
+      "slug": "kombai-come-design-engineer-all-in-one-dal-canvas-al-codice-davvero-sincronizzat",
+      "title": "Kombai come “design engineer” all-in-one: dal canvas al codice (davvero) sincronizzato",
+      "sourceTitle": "The All in One AI Design Engineer - Kombai",
+      "publishedAt": "2026-06-16",
+      "createdAt": "2026-06-17T10:50:32.234Z"
+    },
+    "BPZw8hSk3Dg": {
+      "slug": "automatizzare-app-store-connect-con-una-cli-agentica-pubblicazione-metadata-e-sc",
+      "title": "Automatizzare App Store Connect con una CLI “agentica”: pubblicazione, metadata e screenshot senza attriti",
+      "sourceTitle": "How ASC CLI lets agents automate App Store work? Listen to React Universe On Air Podcast",
+      "publishedAt": "2026-06-17",
+      "createdAt": "2026-06-17T10:51:01.099Z"
+    },
+    "0cxQlEhEkSY": {
+      "slug": "webmcp-mettere-gli-agenti-su-un-percorso-illuminato-per-ridurre-la-prompt-inject",
+      "title": "WebMCP: mettere gli agenti su un “percorso illuminato” per ridurre la prompt injection sul web",
+      "sourceTitle": "Stop prompt injection with WebMCP for a safer web.",
+      "publishedAt": "2026-06-16",
+      "createdAt": "2026-06-17T10:52:25.637Z"
+    },
+    "rQxPGqPq8wk": {
+      "slug": "perche-i-computer-non-sanno-contare-i-soldi-e-cosa-fare-nel-frontend",
+      "title": "Perché i computer “non sanno contare” i soldi (e cosa fare nel frontend)",
+      "sourceTitle": "Why Computers Can’t Count Money",
+      "publishedAt": "2026-06-18",
+      "createdAt": "2026-06-18T10:15:49.437Z"
+    },
+    "Rbafod4FvVY": {
+      "slug": "css-style-queries-theming-e-modifier-condizionali-senza-classi-extra",
+      "title": "CSS Style Queries: theming e “modifier” condizionali senza classi extra",
+      "sourceTitle": "CSS style queries in action",
+      "publishedAt": "2026-06-17",
+      "createdAt": "2026-06-18T10:17:27.265Z"
+    },
+    "7FXpIuJ1OHQ": {
+      "slug": "un-assistente-alla-jarvis-per-lo-studio-architettura-ui-e-integrazioni-reali-sen",
+      "title": "Un assistente “alla Jarvis” per lo studio: architettura, UI e integrazioni reali (senza magia)",
+      "sourceTitle": "Building Tony Stark's 'Jarvis' with Claude Fable 5",
+      "publishedAt": "2026-06-17",
+      "createdAt": "2026-06-18T10:18:36.981Z"
+    },
+    "sWGDKsBss8E": {
+      "slug": "il-futuro-del-web-immaginato-da-noi-accelerato-dall-ai",
+      "title": "Il futuro del web: immaginato da noi, accelerato dall’AI",
+      "sourceTitle": "A global team bringing you the future of the web",
+      "publishedAt": "2026-06-17",
+      "createdAt": "2026-06-18T10:19:44.631Z"
+    },
+    "jicENhajkOg": {
+      "slug": "fedcm-cos-e-e-perche-cambia-davvero-il-login-federato-sul-web",
+      "title": "FedCM: cos’è e perché cambia (davvero) il login federato sul web",
+      "sourceTitle": "What is FedCM and how does it improve online privacy?",
+      "publishedAt": "2026-06-17",
+      "createdAt": "2026-06-18T10:20:12.960Z"
+    },
+    "JoX93gO6eko": {
+      "slug": "perche-le-ui-fatte-da-ai-si-riconoscono-subito-e-perche-il-design-umano-resta-de",
+      "title": "Perché le UI “fatte da AI” si riconoscono subito (e perché il design umano resta decisivo)",
+      "sourceTitle": "Why apps designed by AI look like apps designed by AI - and why skilled designers still matter",
+      "publishedAt": "2026-06-18",
+      "createdAt": "2026-06-19T10:20:40.144Z"
+    },
+    "OkoK6IjndWU": {
+      "slug": "hashing-vs-encryption-la-differenza-che-fa-davvero-la-sicurezza",
+      "title": "Hashing vs Encryption: la differenza che fa davvero la sicurezza",
+      "sourceTitle": "Hashing vs Encryption Explained In 1 Minute",
+      "publishedAt": "2026-06-18",
+      "createdAt": "2026-06-19T10:21:00.778Z"
+    },
+    "-fW2KFS022I": {
+      "slug": "css-moderno-per-contenuti-dinamici-lascia-decidere-lo-stile-ai-dati-senza-if-in-",
+      "title": "CSS moderno per contenuti dinamici: lascia decidere lo stile ai dati (senza if in JavaScript)",
+      "sourceTitle": "Adapting to dynamic content using modern CSS",
+      "publishedAt": "2026-06-18",
+      "createdAt": "2026-06-19T10:21:30.283Z"
+    },
+    "JdbQ8Voviv8": {
+      "slug": "automatizzare-app-store-connect-con-una-cli-agentica-meno-pannelli-piu-consegne",
+      "title": "Automatizzare App Store Connect con una CLI “agentica”: meno pannelli, più consegne",
+      "sourceTitle": "Now Live: how ASC CLI lets agents automate App Store work? | React Universe On Air Podcast",
+      "publishedAt": "2026-06-18",
+      "createdAt": "2026-06-19T10:23:02.256Z"
+    },
+    "EJfVtcBxKoo": {
+      "slug": "emulare-geolocalizzazione-viewport-e-user-agent-con-chrome-devtools-anche-nei-te",
+      "title": "Emulare geolocalizzazione, viewport e user agent con Chrome DevTools (anche nei test automatizzati degli agenti)",
+      "sourceTitle": "How to emulate device capabilities with Chrome DevTools for agents",
+      "publishedAt": "2026-06-18",
+      "createdAt": "2026-06-19T10:24:20.997Z"
+    },
+    "30W4NFFn70g": {
+      "slug": "le-novita-dell-ultima-release-di-angular-template-piu-espressivi-feature-promoss",
+      "title": "Le novità dell’ultima release di Angular: template più espressivi, feature promosse a stable e nuovi tool per il futuro",
+      "sourceTitle": "What's new in the latest Angular release",
+      "publishedAt": "2026-06-18",
+      "createdAt": "2026-06-19T10:24:45.250Z"
+    },
+    "hceShLqwbIU": {
+      "slug": "tre-aggiornamenti-ai-che-cambiano-davvero-il-lavoro-quotidiano-nel-frontend",
+      "title": "Tre aggiornamenti AI che cambiano davvero il lavoro quotidiano nel frontend",
+      "sourceTitle": "Top 3 AI tooling updates from Google I/O 2026",
+      "publishedAt": "2026-06-18",
+      "createdAt": "2026-06-19T10:25:12.184Z"
+    },
+    "T1vs9jE-EEI": {
+      "slug": "vercel-nell-era-agentica-servizi-full-stack-ai-gateway-e-primitive-per-agenti-in",
+      "title": "Vercel nell’era agentica: servizi full‑stack, AI Gateway e primitive per agenti in produzione",
+      "sourceTitle": "Ship 26 London - Keynote",
+      "publishedAt": "2026-06-18",
+      "createdAt": "2026-06-19T10:25:59.817Z"
+    },
+    "Sntj4HmuykI": {
+      "slug": "sqlite-riscritta-in-rust-perche-qualcuno-sta-provando-a-toccare-il-codice-piu-af",
+      "title": "SQLite riscritta in Rust? Perché qualcuno sta provando a toccare il codice “più affidabile” che abbiamo",
+      "sourceTitle": "The most trusted code on Earth is being rewritten in Rust",
+      "publishedAt": "2026-06-19",
+      "createdAt": "2026-06-20T08:51:37.272Z"
+    },
+    "OjiaJ8PzKxg": {
+      "slug": "costruire-una-saas-ai-infused-da-solo-un-blueprint-pratico-design-stack-e-deploy",
+      "title": "Costruire una SaaS “AI‑infused” da solo: un blueprint pratico (design, stack e deployment)",
+      "sourceTitle": "Build a Full AI-Infused SaaS with Claude Code",
+      "publishedAt": "2026-06-19",
+      "createdAt": "2026-06-20T08:52:33.825Z"
+    },
+    "ieguJTb2TS4": {
+      "slug": "6-skill-per-agent-di-coding-che-moltiplicano-il-workflow-di-un-frontend-dev",
+      "title": "6 “skill” per agent di coding che moltiplicano il workflow di un frontend dev",
+      "sourceTitle": "Skills I Use To 10x My Workflow as a Web Developer",
+      "publishedAt": "2026-06-20",
+      "createdAt": "2026-06-20T08:53:20.526Z"
+    },
+    "018VL7-ksoU": {
+      "slug": "guida-2026-all-ottimizzazione-di-react-native-una-checklist-pragmatica-per-app-p",
+      "title": "Guida 2026 all’ottimizzazione di React Native: una checklist pragmatica per app più veloci",
+      "sourceTitle": "Callstack's 2026 React Native Optimization Guide",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-22T11:46:30.684Z"
+    },
+    "_4tZy3yCmQw": {
+      "slug": "google-i-o-2026-3-novita-che-alzano-l-asticella-delle-web-experience-premium",
+      "title": "Google I/O 2026: 3 novità che alzano l’asticella delle web experience “premium”",
+      "sourceTitle": "Top 3 premium web experiences updates from Google I/O 2026",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-23T09:32:54.271Z"
+    },
+    "I-cZ728zA1A": {
+      "slug": "chrome-i-o-2026-tre-direttrici-che-contano-davvero-per-chi-fa-frontend",
+      "title": "Chrome I/O 2026: tre direttrici che contano davvero per chi fa frontend",
+      "sourceTitle": "Best one stays: Chrome I/O updates",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-23T09:33:31.442Z"
+    },
+    "YbzBt--HSOE": {
+      "slug": "agentic-infrastructure-perche-il-front-end-sta-diventando-un-prodotto-che-spedis",
+      "title": "Agentic infrastructure: perché il front‑end sta diventando un prodotto che “spedisce da solo”",
+      "sourceTitle": "Ship Week 2026 London",
+      "publishedAt": "2026-06-22",
+      "createdAt": "2026-06-23T09:34:18.901Z"
+    },
+    "SWGFVNQNLm4": {
+      "slug": "notion-workers-2026-cosa-sono-perche-contano-e-come-prepararli-senza-impazzire",
+      "title": "Notion Workers (2026): cosa sono, perché contano e come prepararli senza impazzire",
+      "sourceTitle": "Notion Workers – Full Tutorial 2026",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-24T09:22:23.445Z"
+    },
+    "DogTO1jjFtI": {
+      "slug": "perche-sto-scegliendo-pi-e-come-lo-sto-configurando-al-posto-dei-coding-agent-mo",
+      "title": "Perché sto scegliendo Pi (e come lo sto configurando) al posto dei “coding agent” monolitici",
+      "sourceTitle": "I Will Never Use Claude Code Again",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-24T09:23:19.730Z"
+    },
+    "a2i9h2ip-nY": {
+      "slug": "midjourney-medical-e-l-ultrasonic-ct-quando-la-ricostruzione-da-dati-rumorosi-es",
+      "title": "Midjourney Medical e l’“ultrasonic CT”: quando la ricostruzione da dati rumorosi esce dal mondo delle immagini",
+      "sourceTitle": "Midjourney wants to delete 30% of all death...",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-24T09:24:11.526Z"
+    },
+    "kZDU-k5r9kE": {
+      "slug": "dare-mani-agli-agenti-ai-feedback-loop-reali-su-mobile-con-una-cli",
+      "title": "Dare “mani” agli agenti AI: feedback loop reali su mobile con una CLI",
+      "sourceTitle": "Giving AI Agents Hands: Mobile Feedback Loops with Agent Device | Mike Grabowski | React Summit 2026",
+      "publishedAt": "2026-06-23",
+      "createdAt": "2026-06-24T09:25:00.926Z"
+    },
+    "ElI6MzLDpb4": {
+      "slug": "il-futuro-del-css-funzioni-if-e-responsive-senza-media-query-a-blocchi",
+      "title": "Il futuro del CSS: funzioni, if() e responsive senza media query “a blocchi”",
+      "sourceTitle": "The future of CSS looks very different",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-25T08:55:32.862Z"
+    },
+    "y1N2RaOQ2Uk": {
+      "slug": "il-tuo-progetto-non-e-al-sicuro-dall-ai-e-non-e-una-scusa-per-smettere-di-pubbli",
+      "title": "Il tuo progetto non è al sicuro dall’AI (e non è una scusa per smettere di pubblicare)",
+      "sourceTitle": "Your project isn't safe from AI",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-25T08:56:46.051Z"
+    },
+    "9sK5A0sdl60": {
+      "slug": "localizzare-in-massa-la-scheda-app-store-con-asc-cli-e-perche-conviene-davvero",
+      "title": "Localizzare in massa la scheda App Store con ASC CLI (e perché conviene davvero)",
+      "sourceTitle": "ASC CLI + Agents for App Store Localization | Rudrank Riyam",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-25T08:57:38.670Z"
+    },
+    "0M71dimUbKk": {
+      "slug": "nob-il-toolkit-che-rende-l-ecosistema-node-molto-piu-veloce-senza-cambiare-runti",
+      "title": "Nob: il toolkit che rende l’ecosistema Node molto più veloce (senza cambiare runtime)",
+      "sourceTitle": "This New Toolkit Makes Node 20x Faster",
+      "publishedAt": "2026-06-24",
+      "createdAt": "2026-06-25T08:59:24.540Z"
+    },
+    "t4TwkwodMCU": {
+      "slug": "ai-skills-cosa-sono-e-perche-conviene-crearle-anche-nei-progetti-frontend",
+      "title": "AI Skills: cosa sono e perché conviene crearle anche nei progetti frontend",
+      "sourceTitle": "What Are AI Skills In 1 Minute",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-26T08:58:33.966Z"
+    },
+    "h6nOP19c-hQ": {
+      "slug": "il-positioning-in-css-oggi-e-quasi-banale-popover-anchor-e-size-che-si-allineano",
+      "title": "Il positioning in CSS oggi è (quasi) banale: popover, anchor e size che si allineano da soli",
+      "sourceTitle": "Positioning in CSS is too easy now",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-26T08:59:26.495Z"
+    },
+    "w9_GGSNHE7U": {
+      "slug": "tre-novita-che-alzano-l-asticella-della-ui-sul-web-html-nel-canvas-view-transiti",
+      "title": "Tre novità che alzano l’asticella della UI sul web: HTML nel Canvas, view transitions “scoped” e login con Immediate UI",
+      "sourceTitle": "Top 3 premium web experiences updates from Google I/O 2026",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-26T09:00:36.542Z"
+    },
+    "wBNCPp5gdqg": {
+      "slug": "chrome-devtools-148-150-agent-ai-assistance-e-nuove-utility-per-debugging-e-acce",
+      "title": "Chrome DevTools 148–150: agent, AI Assistance e nuove utility per debugging e accessibilità",
+      "sourceTitle": "What's New: Chrome DevTools 148-150",
+      "publishedAt": "2026-06-25",
+      "createdAt": "2026-06-26T09:01:48.650Z"
+    },
+    "lz9bQm3nZIM": {
+      "slug": "come-ragiona-un-hacker-e-cosa-cambia-per-chi-costruisce-prodotti-web",
+      "title": "Come ragiona un hacker (e cosa cambia per chi costruisce prodotti web)",
+      "sourceTitle": "How Hackers Think",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-27T08:32:12.923Z"
+    },
+    "wpx7Ps1dvcI": {
+      "slug": "figma-motion-come-costruire-una-micro-animazione-da-ui-e-esportarla-in-mp4",
+      "title": "Figma Motion: come costruire una micro‑animazione “da UI” (e esportarla in MP4)",
+      "sourceTitle": "Figma Motion in 30 Minutes - Crash Course",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-27T08:32:47.956Z"
+    },
+    "hKeFaFedu1s": {
+      "slug": "il-ciclo-di-qa-che-manca-agli-agenti-soprattutto-su-mobile-verificare-davvero-l-",
+      "title": "Il ciclo di QA che manca agli agenti (soprattutto su mobile): verificare davvero l’app, non solo il codice",
+      "sourceTitle": "The Missing QA Loop for Mobile Agents | Interview With Michał Pierzchała",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-27T08:34:09.597Z"
+    },
+    "q3u_CB86PlQ": {
+      "slug": "smettere-di-bruciare-token-il-metodo-agentico-per-usare-l-ai-nel-coding-senza-pe",
+      "title": "Smettere di “bruciare token”: il metodo agentico per usare l’AI nel coding senza perdere qualità",
+      "sourceTitle": "Stop Wasting Tokens. Follow Karpathy's Agentic Method Instead.",
+      "publishedAt": "2026-06-26",
+      "createdAt": "2026-06-27T08:35:26.713Z"
+    },
+    "6nGly6hPRhI": {
+      "slug": "un-avventura-punta-e-clicca-senza-javascript-inventario-note-e-radio-button",
+      "title": "Un’avventura punta-e-clicca senza JavaScript: inventario, note e… radio button",
+      "sourceTitle": "The mine: A no-JS adventure game",
+      "publishedAt": "2026-06-27",
+      "createdAt": "2026-06-28T08:47:08.301Z"
+    },
+    "gVCU2RoZheQ": {
+      "slug": "voice-agent-in-app-latenza-percepita-turn-taking-e-guardrail-senza-rovinare-l-es",
+      "title": "Voice agent in app: latenza percepita, turn-taking e guardrail (senza rovinare l’esperienza)",
+      "sourceTitle": "How Voice Agents Handle Latency, Turn-Taking, and Safety | Interview With Kræn Hansen",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T10:50:08.447Z"
+    },
+    "uRgaNhBVyto": {
+      "slug": "l-editor-non-e-morto-e-diventato-un-lettore-di-codice-e-la-sfida-ora-e-la-revisi",
+      "title": "L’editor non è morto: è diventato un lettore di codice (e la sfida ora è la revisione)",
+      "sourceTitle": "The Slow Death of Code Editors",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-29T10:50:46.898Z"
+    },
+    "JdCWqZmOT4o": {
+      "slug": "shader-in-figma-potenti-immediati-ma-oggi-non-sono-ancora-un-ponte-affidabile-ve",
+      "title": "Shader in Figma: potenti, immediati… ma oggi non sono (ancora) un ponte affidabile verso il browser",
+      "sourceTitle": "Figma Shaders are cool, but there's a problem",
+      "publishedAt": "2026-06-29",
+      "createdAt": "2026-06-30T09:28:36.889Z"
+    },
+    "mABpAI-pCw0": {
+      "slug": "basi-di-command-line-per-sviluppatori-frontend-navigare-file-e-cartelle-senza-pa",
+      "title": "Basi di Command Line per sviluppatori frontend: navigare file e cartelle senza paura",
+      "sourceTitle": "Command Line Basics for Beginners - Full Course",
+      "publishedAt": "2026-06-30",
+      "createdAt": "2026-07-01T09:39:21.346Z"
+    },
+    "7Z7ID5BbZU4": {
+      "slug": "i-container-non-rendono-sicuro-un-agente-ai-come-isolare-davvero-codice-rete-e-c",
+      "title": "I container non rendono “sicuro” un agente AI: come isolare davvero codice, rete e credenziali",
+      "sourceTitle": "Containers Don't Make Your AI Agent Safe",
+      "publishedAt": "2026-06-30",
+      "createdAt": "2026-07-01T09:40:01.097Z"
+    },
+    "q1lGlhRnzsM": {
+      "slug": "refactor-ui-come-ripulire-una-schermata-agents-piena-di-rumore-senza-rifarla-da-",
+      "title": "Refactor UI: come ripulire una schermata “Agents” piena di rumore (senza rifarla da zero)",
+      "sourceTitle": "Design Refactor of OpenClaw's New Mobile App",
+      "publishedAt": "2026-06-30",
+      "createdAt": "2026-07-01T09:40:46.553Z"
+    },
+    "dYEaN7ZqFmo": {
+      "slug": "redraw-e-skia-quando-la-ui-non-basta-piu-e-serve-un-motore-per-effetti-impossibi",
+      "title": "Redraw e Skia: quando la UI non basta più (e serve un motore per effetti “impossibili”)",
+      "sourceTitle": "Redraw for Effects Beyond Skia | Interview With William Candillon",
+      "publishedAt": "2026-07-01",
+      "createdAt": "2026-07-01T09:41:27.046Z"
+    },
+    "2WJ-ut_XEYQ": {
+      "slug": "date-e-orari-in-javascript-senza-mal-di-testa-epoch-utc-fusi-orari-e-bug-reali",
+      "title": "Date e orari in JavaScript senza mal di testa: epoch, UTC, fusi orari e bug reali",
+      "sourceTitle": "Mastering JavaScript Dates and Times – Fundamentals to Advanced Techniques",
+      "publishedAt": "2026-07-01",
+      "createdAt": "2026-07-02T08:51:12.485Z"
+    },
+    "7B0ydm64cV8": {
+      "slug": "una-storia-strana-di-internet-perche-funziona-davvero-e-cosa-insegna-a-chi-fa-fr",
+      "title": "Una storia (strana) di Internet: perché funziona davvero e cosa insegna a chi fa frontend",
+      "sourceTitle": "The weird history of the internet...",
+      "publishedAt": "2026-07-01",
+      "createdAt": "2026-07-02T08:52:18.046Z"
+    },
+    "JbsVxccYYnY": {
+      "slug": "smettila-di-sprecare-tempo-con-javascript-i-popover-moderni-si-fanno-anche-in-cs",
+      "title": "Smettila di sprecare tempo con JavaScript: i popover moderni si fanno (anche) in CSS",
+      "sourceTitle": "Stop wasting time with JavaScript!",
+      "publishedAt": "2026-07-01",
+      "createdAt": "2026-07-02T08:52:51.700Z"
+    },
+    "Xh6nT6LK0kQ": {
+      "slug": "popover-nativi-in-html-con-animazioni-fluide-senza-javascript",
+      "title": "Popover nativi in HTML con animazioni fluide (senza JavaScript)",
+      "sourceTitle": "Native popovers with smooth animations (no JS required)",
+      "publishedAt": "2026-07-01",
+      "createdAt": "2026-07-02T08:53:33.837Z"
+    },
+    "8YHjl0OSZXA": {
+      "slug": "chrome-devtools-148-150-nuove-armi-per-il-debugging-agent-gemini-3-e-web-mcp",
+      "title": "Chrome DevTools 148–150: nuove armi per il debugging (agent, Gemini 3 e Web MCP)",
+      "sourceTitle": "Chrome DevTools 148+: How to use new debugging tools",
+      "publishedAt": "2026-07-01",
+      "createdAt": "2026-07-02T08:54:47.349Z"
+    },
+    "5HHiRBiNsyc": {
+      "slug": "eseguire-agent-ai-in-una-sandbox-sicura-come-evitare-token-rubati-e-repository-d",
+      "title": "Eseguire agent AI in una sandbox sicura: come evitare token rubati e repository distrutti",
+      "sourceTitle": "How To Run AI In A Secure Sandbox",
+      "publishedAt": "2026-07-02",
+      "createdAt": "2026-07-03T08:57:06.216Z"
+    },
+    "HueOt0ctSGQ": {
+      "slug": "nitro-modules-in-react-native-perche-non-sono-solo-un-bridge-piu-veloce",
+      "title": "Nitro Modules in React Native: perché non sono “solo un bridge più veloce”",
+      "sourceTitle": "Why Nitro Is More Than a Faster Bridge | Interview With Marc Rousavy",
+      "publishedAt": "2026-07-03",
+      "createdAt": "2026-07-03T08:57:49.152Z"
+    },
+    "Bz0Q5aBJkNE": {
+      "slug": "eve-un-modo-convention-over-configuration-per-costruire-e-far-girare-ai-agent-in",
+      "title": "Eve: un modo “convention over configuration” per costruire e far girare AI agent in TypeScript (anche con modelli locali)",
+      "sourceTitle": "Can Eve Make AI Agents Easier to Build and Run?",
+      "publishedAt": "2026-07-02",
+      "createdAt": "2026-07-03T08:58:39.295Z"
+    },
+    "lxd_BGQHSng": {
+      "slug": "quando-ti-serve-davvero-reanimated-e-quando-no-in-react-native",
+      "title": "Quando ti serve davvero Reanimated (e quando no) in React Native",
+      "sourceTitle": "When do you need Reanimated? | React Universe On Air Podcast",
+      "publishedAt": "2026-07-02",
+      "createdAt": "2026-07-03T08:59:09.941Z"
+    },
+    "yitfETVnN70": {
+      "slug": "release-train-in-react-native-come-scalare-rilasci-affidabili-ogni-2-settimane-i",
+      "title": "Release train in React Native: come scalare rilasci affidabili ogni 2 settimane in un contesto B2B (e TV)",
+      "sourceTitle": "How React Native changed delivery at Zattoo | Webinar",
+      "publishedAt": "2026-07-02",
+      "createdAt": "2026-07-03T08:59:38.756Z"
+    },
+    "w37SORQg8II": {
+      "slug": "automatizzare-lo-sviluppo-di-estensioni-chrome-con-agenti-di-coding-e-devtools-m",
+      "title": "Automatizzare lo sviluppo di estensioni Chrome con agenti di coding e DevTools (MCP)",
+      "sourceTitle": "Automate building Chrome Extensions with Antigravity and DevTools MCP (I/O Connect ‘26)",
+      "publishedAt": "2026-07-02",
+      "createdAt": "2026-07-03T09:00:15.684Z"
+    },
+    "SnkNmrW0cdE": {
+      "slug": "siti-agent-ready-come-preparare-il-frontend-a-browser-agent-e-strumenti-struttur",
+      "title": "Siti “agent-ready”: come preparare il frontend a browser agent e strumenti strutturati",
+      "sourceTitle": "Practical steps to make your website agent-ready (I/O Connect ‘26)",
+      "publishedAt": "2026-07-02",
+      "createdAt": "2026-07-03T09:01:01.073Z"
+    },
+    "3IZNhRHcY-g": {
+      "slug": "modern-web-guidance-come-far-smettere-all-ai-di-generare-codice-web-vecchio-e-re",
+      "title": "Modern Web Guidance: come far smettere all’AI di generare codice web “vecchio” (e renderlo davvero compatibile)",
+      "sourceTitle": "Bridge the AI knowledge gap with Modern Web Guidance (I/O Connect ‘26)",
+      "publishedAt": "2026-07-02",
+      "createdAt": "2026-07-03T09:03:04.286Z"
+    },
+    "W07fSGVlcw8": {
+      "slug": "autenticazione-nel-2026-passkey-credenziali-digitali-e-flussi-senza-attrito-per-",
+      "title": "Autenticazione nel 2026: passkey, credenziali digitali e flussi “senza attrito” per il Web",
+      "sourceTitle": "Authentication in 2026: A guide to passkeys, digital credentials and more (I/O Connect ‘26)",
+      "publishedAt": "2026-07-02",
+      "createdAt": "2026-07-03T09:04:18.802Z"
+    },
+    "6C14E9sQ_-w": {
+      "slug": "perche-i-grandi-outage-di-aws-continuano-a-succedere-e-cosa-insegnano-a-chi-cost",
+      "title": "Perché i grandi outage di AWS continuano a succedere (e cosa insegnano a chi costruisce prodotti web)",
+      "sourceTitle": "Every Major AWS Outage (And Why They Keep Happening)",
+      "publishedAt": "2026-07-03",
+      "createdAt": "2026-07-04T08:31:59.120Z"
+    },
+    "T3ov18PfZRU": {
+      "slug": "reanimated-il-prossimo-passo-e-davvero-nativo-e-piu-vicino-al-web",
+      "title": "Reanimated: il prossimo passo è (davvero) nativo — e più vicino al web",
+      "sourceTitle": "Where Reanimated Goes Next | Interview With Bartłomiej Błoniarz",
+      "publishedAt": "2026-07-07",
+      "createdAt": "2026-07-07T09:35:10.111Z"
+    },
+    "_KBZ241HS9c": {
+      "slug": "chrome-for-developers-a-berlino-cosa-aspettarsi-dall-ecosistema-web-nel-2026",
+      "title": "Chrome for Developers a Berlino: cosa aspettarsi dall’ecosistema web nel 2026",
+      "sourceTitle": "Google I/O Connect Berlin with Chrome for Developers",
+      "publishedAt": "2026-07-06",
+      "createdAt": "2026-07-07T09:35:52.603Z"
+    },
+    "66josBG04qA": {
+      "slug": "devtools-for-agents-il-loop-di-feedback-chiuso-per-i-coding-agent-in-chrome",
+      "title": "DevTools for Agents: il loop di feedback chiuso per i coding agent in Chrome",
+      "sourceTitle": "New quest: Discover DevTools for agents",
+      "publishedAt": "2026-07-06",
+      "createdAt": "2026-07-07T09:36:46.812Z"
+    },
+    "0WCSLpL_FFM": {
+      "slug": "quando-la-sicurezza-diventa-un-permission-system-cosa-cambia-per-chi-sviluppa-co",
+      "title": "Quando la “sicurezza” diventa un permission system: cosa cambia per chi sviluppa con i modelli chiusi",
+      "sourceTitle": "Anthropic's War On Open Source AI",
+      "publishedAt": "2026-07-06",
+      "createdAt": "2026-07-07T09:37:54.974Z"
+    },
+    "AZDSpS5v57w": {
+      "slug": "ai-agent-per-frontend-dai-token-ai-sistemi-multi-agente-con-un-caso-studio-openc",
+      "title": "AI agent per frontend: dai token ai sistemi multi‑agente (con un caso studio “OpenClaw”)",
+      "sourceTitle": "AI Agents For Beginners – OpenClaw Case Study",
+      "publishedAt": "2026-07-07",
+      "createdAt": "2026-07-08T08:22:18.176Z"
+    },
+    "heht1VB09fI": {
+      "slug": "il-problem-solving-che-conta-davvero-per-un-frontend-developer-imparare-a-debugg",
+      "title": "Il problem solving che conta davvero per un frontend developer: imparare a debuggare",
+      "sourceTitle": "Why problem-solving is key for developers",
+      "publishedAt": "2026-07-07",
+      "createdAt": "2026-07-08T08:22:43.520Z"
+    },
+    "YIA3dqahMHs": {
+      "slug": "framer-3-agent-ai-progettare-una-landing-page-piu-in-fretta-senza-sacrificare-il",
+      "title": "Framer 3 + agent AI: progettare una landing page più in fretta (senza sacrificare il gusto)",
+      "sourceTitle": "Framer AI Agents with Fable 5 are Sick!",
+      "publishedAt": "2026-07-07",
+      "createdAt": "2026-07-08T08:23:34.408Z"
+    },
+    "YImum6f4Z2w": {
+      "slug": "un-loop-di-feedback-chiuso-con-chrome-devtools-far-debuggare-l-agente-sul-runtim",
+      "title": "Un loop di feedback “chiuso” con Chrome DevTools: far debuggare l’agente sul runtime (non sui file)",
+      "sourceTitle": "Create a closed feedback loop: Chrome Devtools for agents (I/O Connect ‘26)",
+      "publishedAt": "2026-07-07",
+      "createdAt": "2026-07-08T08:24:03.477Z"
+    },
+    "SAYyWDKdCJA": {
+      "slug": "life-after-i-o-cosa-resta-davvero-per-chi-fa-frontend-con-chrome",
+      "title": "Life after I/O: cosa resta davvero per chi fa frontend con Chrome",
+      "sourceTitle": "Life After I/O: Where is the Chrome DevRel team now?",
+      "publishedAt": "2026-07-07",
+      "createdAt": "2026-07-08T08:24:55.055Z"
+    },
+    "aJP1AbZSqz8": {
+      "slug": "typescript-in-react-tipizzare-stato-props-e-funzioni-senza-impazzire",
+      "title": "TypeScript in React: tipizzare stato, props e funzioni senza impazzire",
+      "sourceTitle": "TypeScript in React - Full Tutorial",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-09T09:32:32.097Z"
+    },
+    "KGtko3y2RXQ": {
+      "slug": "dentro-i-pensieri-privati-di-un-llm-j-space-global-workspace-e-cosa-cambia-davve",
+      "title": "Dentro i “pensieri privati” di un LLM: J-Space, Global Workspace e cosa cambia davvero per chi sviluppa",
+      "sourceTitle": "Claude is definitely not conscious…",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-09T09:33:35.970Z"
+    },
+    "AiZsEIhIves": {
+      "slug": "animazioni-next-level-con-gsap-scroll-stagger-e-trigger-per-landing-page-che-si-",
+      "title": "Animazioni “next-level” con GSAP: scroll, stagger e trigger per landing page che si muovono bene",
+      "sourceTitle": "Make a next-level site with GSAP",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-09T09:34:12.645Z"
+    },
+    "xldO6EYxdkY": {
+      "slug": "ai-e-monetizzazione-mobile-come-cambiano-paywall-sdk-e-workflow-per-chi-sviluppa",
+      "title": "AI e monetizzazione mobile: come cambiano paywall, SDK e workflow per chi sviluppa frontend",
+      "sourceTitle": "What AI Changes for Paywalls and Monetization | Interview With Perttu Lähteenlahti",
+      "publishedAt": "2026-07-09",
+      "createdAt": "2026-07-09T09:34:49.585Z"
+    },
+    "-DFMxtnnagU": {
+      "slug": "ease-in-react-native-animazioni-native-first-senza-sostituire-reanimated",
+      "title": "Ease in React Native: animazioni “native-first” senza sostituire Reanimated",
+      "sourceTitle": "React Native Ease vs. Reanimated | React Universe On Air",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-09T09:35:19.746Z"
+    },
+    "D0ouZLEeoPQ": {
+      "slug": "react-native-ease-animazioni-native-fire-and-forget-puntando-alle-primitive-di-p",
+      "title": "React Native Ease: animazioni native “fire-and-forget” puntando alle primitive di piattaforma",
+      "sourceTitle": "React Native Ease: Faster Native Animations with Platform Primitives  | React Universe On Air",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-09T09:35:51.815Z"
+    },
+    "rXT0bscwllk": {
+      "slug": "due-workflow-per-alzare-la-qualita-delle-web-app-nell-era-degli-agenti-modern-we",
+      "title": "Due workflow per alzare la qualità delle web app nell’era degli agenti: Modern Web Guidance e DevTools “agent-ready”",
+      "sourceTitle": "New workflows for improved web app quality: Modern Web Guidance and DevTools (I/O Connect '26)",
+      "publishedAt": "2026-07-09",
+      "createdAt": "2026-07-09T09:37:01.150Z"
+    },
+    "OPHGK5tn1Y0": {
+      "slug": "autenticazione-nel-2026-progettare-un-ciclo-di-vita-dell-account-senza-attrito-e",
+      "title": "Autenticazione nel 2026: progettare un ciclo di vita dell’account senza attrito (e senza password)",
+      "sourceTitle": "Authentication in 2026: A guide to passkeys, digital credentials and more (I/O Connect ‘26)",
+      "publishedAt": "2026-07-08",
+      "createdAt": "2026-07-09T09:38:03.230Z"
+    },
+    "osOR3nusP2I": {
+      "slug": "imparare-a-fare-domande-migliori-una-skill-sottovalutata-per-crescere-da-develop",
+      "title": "Imparare a fare domande migliori: una skill sottovalutata per crescere da developer",
+      "sourceTitle": "Learning how to ask good questions is a key skill you should work on",
+      "publishedAt": "2026-07-09",
+      "createdAt": "2026-07-10T09:28:29.494Z"
+    },
+    "Kh8M_iiIhUY": {
+      "slug": "pi-agent-harness-un-harness-agentico-minimale-e-veloce-da-integrare-nel-tuo-work",
+      "title": "Pi Agent Harness: un harness “agentico” minimale e veloce da integrare nel tuo workflow",
+      "sourceTitle": "How To Use The Pi Agent Harness In 1 Minute",
+      "publishedAt": "2026-07-09",
+      "createdAt": "2026-07-10T09:28:54.965Z"
+    },
+    "tciB-lGsXOA": {
+      "slug": "popover-in-html-il-trucco-magico-per-menu-e-tooltip-senza-javascript",
+      "title": "Popover in HTML: il trucco “magico” per menu e tooltip senza JavaScript",
+      "sourceTitle": "The popover attribute is magic ✨",
+      "publishedAt": "2026-07-09",
+      "createdAt": "2026-07-10T09:29:25.065Z"
+    },
+    "mRsbIHuSMhg": {
+      "slug": "webmcp-dare-alle-pagine-web-un-catalogo-di-strumenti-per-agenti-ai",
+      "title": "WebMCP: dare alle pagine web un “catalogo di strumenti” per agenti AI",
+      "sourceTitle": "Explain like I’m 5: WebMCP edition",
+      "publishedAt": "2026-07-09",
+      "createdAt": "2026-07-10T09:29:58.191Z"
+    },
+    "RmA5BIzxLYs": {
+      "slug": "modern-web-guidance-un-guardrail-per-scrivere-web-moderno-davvero-anche-con-un-c",
+      "title": "Modern Web Guidance: un “guardrail” per scrivere web moderno (davvero) anche con un coding agent",
+      "sourceTitle": "What is Modern Web Guidance?",
+      "publishedAt": "2026-07-09",
+      "createdAt": "2026-07-10T09:30:26.744Z"
+    },
+    "n1VUnHD62r0": {
+      "slug": "algoritmo-di-dijkstra-trovare-il-percorso-minimo-e-perche-serve-ancora-nel-softw",
+      "title": "Algoritmo di Dijkstra: trovare il percorso minimo (e perché serve ancora nel software moderno)",
+      "sourceTitle": "The 20 Minute Masterpiece: Dijkstra's Algorithm",
+      "publishedAt": "2026-07-10",
+      "createdAt": "2026-07-11T07:49:15.510Z"
+    },
+    "URKml8lgw8Y": {
+      "slug": "gpt-5-6-modelli-a-famiglia-e-sviluppo-agentico-davvero-in-parallelo",
+      "title": "GPT 5.6: modelli “a famiglia” e sviluppo agentico (davvero) in parallelo",
+      "sourceTitle": "OpenAI is so back... GPT 5.6 Sol first look",
+      "publishedAt": "2026-07-10",
+      "createdAt": "2026-07-11T07:49:48.626Z"
+    },
+    "0heeppCYrmM": {
+      "slug": "lighthouse-agentic-browsing-come-verificare-se-un-sito-e-davvero-pronto-per-gli-",
+      "title": "Lighthouse “Agentic browsing”: come verificare se un sito è davvero pronto per gli agenti",
+      "sourceTitle": "Lighthouse Audit: Make your website agent-ready",
+      "publishedAt": "2026-07-10",
+      "createdAt": "2026-07-11T07:50:59.711Z"
+    },
+    "luOzh9Q1zY8": {
+      "slug": "effetto-farfalla-nel-frontend-come-una-scelta-piccola-cambia-tutto-anche-il-tuo-",
+      "title": "Effetto farfalla nel frontend: come una scelta piccola cambia tutto (anche il tuo stack)",
+      "sourceTitle": "The Butterfly Effect: Dev Edition",
+      "publishedAt": "2026-07-10",
+      "createdAt": "2026-07-11T07:51:44.240Z"
+    },
+    "4GtVeULrNks": {
+      "slug": "react-native-full-stack-con-expo-grocery-list-cross-platform-con-clerk-postgres-",
+      "title": "React Native full stack con Expo: grocery list cross‑platform con Clerk, Postgres (Neon) e NativeWind",
+      "sourceTitle": "React Native Full Stack Course – Clerk, Postgres, NativeWind",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-14T07:56:34.565Z"
+    },
+    "k3_VO8HybME": {
+      "slug": "ai-e-logo-design-perche-i-generatori-di-concept-non-sostituiscono-ancora-un-buon",
+      "title": "AI e logo design: perché i generatori di “concept” non sostituiscono (ancora) un buon designer",
+      "sourceTitle": "Top logo designer quits because \"AI is better than me\"",
+      "publishedAt": "2026-07-13",
+      "createdAt": "2026-07-14T07:57:17.241Z"
+    },
+    "1mvlBz6pj1I": {
+      "slug": "costruire-un-sistema-rag-su-misura-per-cercare-nei-tuoi-contenuti-con-risultati-",
+      "title": "Costruire un sistema RAG “su misura” per cercare nei tuoi contenuti (con risultati davvero utili)",
+      "sourceTitle": "How To Build Your Own RAG AI System - Better Results Than Claude",
+      "publishedAt": "2026-07-14",
+      "createdAt": "2026-07-15T08:01:33.922Z"
+    },
+    "YdhXnB5E-4s": {
+      "slug": "intro-agli-shader-con-javascript-e-p5-js-capire-davvero-gpu-glsl-e-pipeline-webg",
+      "title": "Intro agli shader con JavaScript e p5.js: capire davvero GPU, GLSL e pipeline (WebGL2)",
+      "sourceTitle": "Intro to Shaders – JavaScript & p5.js Course for Beginners",
+      "publishedAt": "2026-07-15",
+      "createdAt": "2026-07-16T08:06:17.181Z"
+    },
+    "CXSvKcLovAk": {
+      "slug": "bun-riscrive-tutto-da-zig-a-rust-in-11-giorni-e-cosa-ci-insegna-davvero",
+      "title": "Bun riscrive tutto: da Zig a Rust in 11 giorni (e cosa ci insegna davvero)",
+      "sourceTitle": "The most controversial rewrite in history just shipped...",
+      "publishedAt": "2026-07-15",
+      "createdAt": "2026-07-16T08:07:08.749Z"
+    },
+    "2kEsTcc4FMs": {
+      "slug": "rispondere-alle-recensioni-sul-chrome-web-store-perche-conviene-e-come-farlo-ben",
+      "title": "Rispondere alle recensioni sul Chrome Web Store: perché conviene (e come farlo bene)",
+      "sourceTitle": "How to engage with Chrome Web Store reviews",
+      "publishedAt": "2026-07-15",
+      "createdAt": "2026-07-16T08:08:53.319Z"
+    },
+    "NcUWwgfAolQ": {
+      "slug": "html-dentro-canvas-ui-completa-effetti-gpu-e-accessibilita-senza-compromessi",
+      "title": "HTML dentro Canvas: UI completa, effetti GPU e accessibilità senza compromessi",
+      "sourceTitle": "See the HTML-in-Canvas API in action",
+      "publishedAt": "2026-07-15",
+      "createdAt": "2026-07-16T08:09:42.966Z"
+    },
+    "oDOw5tB3Udw": {
+      "slug": "python-da-zero-installazione-setup-dell-editor-e-primo-script-senza-inciampi",
+      "title": "Python da zero: installazione, setup dell’editor e primo script (senza inciampi)",
+      "sourceTitle": "Python for Beginners with Hands-On Projects",
+      "publishedAt": "2026-07-16",
+      "createdAt": "2026-07-17T08:03:49.607Z"
+    },
+    "o24HzAnBRyw": {
+      "slug": "animare-l-apertura-chiusura-da-display-none-senza-hack-transition-behavior-e-sta",
+      "title": "Animare l’apertura/chiusura da display: none senza hack: transition-behavior e @starting-style",
+      "sourceTitle": "Easily transition to and from display: none",
+      "publishedAt": "2026-07-16",
+      "createdAt": "2026-07-17T08:04:40.010Z"
+    },
+    "2CR9tDNAzB0": {
+      "slug": "herdr-il-terminal-multiplexer-che-cambia-davvero-il-modo-di-lavorare-con-piu-age",
+      "title": "herdr: il terminal multiplexer che cambia davvero il modo di lavorare con più agenti AI",
+      "sourceTitle": "herdr is a must use",
+      "publishedAt": "2026-07-16",
+      "createdAt": "2026-07-17T08:05:23.925Z"
+    },
+    "7GT22LURIaY": {
+      "slug": "quale-progetto-ai-costruire-per-primo-e-perche-oggi-puo-girare-anche-su-mobile",
+      "title": "Quale progetto AI costruire per primo (e perché oggi può girare anche su mobile)",
+      "sourceTitle": "How to Teach Your Own AI Model, Part 2: What Should You Build First?",
+      "publishedAt": "2026-07-16",
+      "createdAt": "2026-07-17T08:06:05.965Z"
+    },
+    "AZyHqiihKbY": {
+      "slug": "modern-web-guidance-un-manuale-operativo-per-far-scrivere-agli-agenti-ai-codice-",
+      "title": "Modern Web Guidance: un “manuale operativo” per far scrivere agli agenti AI codice web davvero moderno",
+      "sourceTitle": "Modern Web Guidance for AI-assisted web development",
+      "publishedAt": "2026-07-16",
+      "createdAt": "2026-07-17T08:06:36.930Z"
+    },
+    "WFZgfGisdcM": {
+      "slug": "una-mini-estensione-chrome-timer-di-30-secondi-in-popup",
+      "title": "Una mini estensione Chrome: timer di 30 secondi in popup",
+      "sourceTitle": "Build a Chrome Extension with Antigravity: A 30-second timer",
+      "publishedAt": "2026-07-16",
+      "createdAt": "2026-07-17T08:07:20.736Z"
+    },
+    "XgqWCiOVh7A": {
+      "slug": "fake-it-till-you-make-it-ma-con-metodo-come-insegnare-senza-sentirsi-pronti-e-di",
+      "title": "“Fake it till you make it” (ma con metodo): come insegnare senza sentirsi pronti e diventare davvero credibili",
+      "sourceTitle": "You've likely heard \"fake it til you make it\"...well, Mark has done that, and talks about it here.",
+      "publishedAt": "2026-07-17",
+      "createdAt": "2026-07-18T07:42:40.983Z"
+    },
+    "PVAstrvWPkQ": {
+      "slug": "sosumi-la-micro-rivincita-piu-longeva-della-storia-del-software-e-cosa-insegna-a",
+      "title": "“Sosumi”: la micro-rivincita più longeva della storia del software (e cosa insegna a chi scrive frontend)",
+      "sourceTitle": "How an Apple Engineer Pranked Billion-Dollar Lawyers (and Won)",
+      "publishedAt": "2026-07-17",
+      "createdAt": "2026-07-18T07:43:25.928Z"
+    },
+    "5D4Zqp9GLSc": {
+      "slug": "apple-contro-openai-quando-l-ai-entra-nell-hardware-e-scoppia-la-guerra-dei-segr",
+      "title": "Apple contro OpenAI: quando l’AI entra nell’hardware (e scoppia la guerra dei segreti industriali)",
+      "sourceTitle": "OpenAI is being sued for stealing, again…",
+      "publishedAt": "2026-07-17",
+      "createdAt": "2026-07-18T07:44:00.998Z"
+    },
+    "0_PuRInJFrc": {
+      "slug": "mettere-alla-prova-un-modello-ai-sul-design-landing-page-dashboard-in-figma-e-lo",
+      "title": "Mettere alla prova un modello AI sul design: landing page, dashboard in Figma e loghi (cosa aspettarsi davvero)",
+      "sourceTitle": "KIMI 3 - 5 Design Tests  for UI/UX & Logos",
+      "publishedAt": "2026-07-17",
+      "createdAt": "2026-07-18T07:44:36.496Z"
+    },
+    "02SpO4EY3cg": {
+      "slug": "postgresql-a-scala-planetaria-l-architettura-semplice-ma-disciplinata-per-regger",
+      "title": "PostgreSQL a scala “planetaria”: l’architettura semplice (ma disciplinata) per reggere carichi enormi",
+      "sourceTitle": "OpenAI Scaled To 800 Million Users with This Simple Architecture",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-20T08:51:24.623Z"
+    },
+    "reDRM0tqhNs": {
+      "slug": "claude-certified-architect-foundations-cca-f-cosa-studiare-davvero-e-come-prepar",
+      "title": "Claude Certified Architect Foundations (CCA‑f): cosa studiare davvero e come prepararsi con un approccio “hands-on”",
+      "sourceTitle": "Claude Certified Architect - Foundations – Prepare for and pass the exam!",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:21:58.279Z"
+    },
+    "M51asSwRLxA": {
+      "slug": "inkling-un-modello-open-weights-medio-di-proposito-che-punta-su-efficienza-contr",
+      "title": "Inkling: un modello open weights “medio” (di proposito) che punta su efficienza, controllo e specializzazione",
+      "sourceTitle": "This $12 billion startup finally shipped something...",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:22:43.789Z"
+    },
+    "hJSe6tM0PUI": {
+      "slug": "webmcp-in-pratica-un-adapter-per-far-parlare-gli-agenti-ai-con-le-web-app-senza-",
+      "title": "WebMCP in pratica: un “adapter” per far parlare gli agenti AI con le web app (senza DOM scraping)",
+      "sourceTitle": "Deep dive with Dhananjay Kumar from MakeMyTrip",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:23:36.954Z"
+    },
+    "dJ60ymK2Ook": {
+      "slug": "html-canvas-l-ibrido-pratico-per-ui-piu-rapide-e-ricche-senza-rinunciare-al-web",
+      "title": "HTML + Canvas: l’ibrido pratico per UI più rapide e “ricche” senza rinunciare al Web",
+      "sourceTitle": "How to build faster, richer UIs",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:24:09.348Z"
+    },
+    "3VBpZ2aTQos": {
+      "slug": "come-pianificare-il-rilascio-di-un-aggiornamento-per-un-estensione-chrome",
+      "title": "Come pianificare il rilascio di un aggiornamento per un’estensione Chrome",
+      "sourceTitle": "How to schedule an extension release",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:24:36.417Z"
+    },
+    "yBCnu2JHs7Q": {
+      "slug": "dall-idea-al-deploy-in-meno-di-un-ora-con-stripe-projects-e-un-agente-di-coding",
+      "title": "Dall’idea al deploy in meno di un’ora con Stripe Projects (e un agente di coding)",
+      "sourceTitle": "Ship 26 NYC - Workshop - From init to deploy in 30 minutes",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:25:16.258Z"
+    },
+    "_EnysOaaTMg": {
+      "slug": "internal-app-e-agent-in-produzione-come-cambiano-stack-ruoli-e-guard-rail-nelle-",
+      "title": "Internal app e agent in produzione: come cambiano stack, ruoli e guard rail nelle aziende",
+      "sourceTitle": "Ship 26 NYC - CTO panel: Internal apps and agents in production",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:26:09.700Z"
+    },
+    "cYzjlLdpzXA": {
+      "slug": "da-zero-a-un-agente-slack-deployato-su-vercel-workflow-pratico-con-slack-cli-tem",
+      "title": "Da zero a un agente Slack deployato su Vercel: workflow pratico con Slack CLI, template e hot reload",
+      "sourceTitle": "Ship 26 NYC - Workshop - Build and deploy a Slack Agent to Vercel",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:27:20.361Z"
+    },
+    "eD8pV7nSIxY": {
+      "slug": "eve-agent-a-file-system-su-vercel-tra-canali-tool-e-valutazioni-automatiche",
+      "title": "Eve: agent “a file system” su Vercel, tra canali, tool e valutazioni automatiche",
+      "sourceTitle": "Ship 26 NYC - Workshop - Build an Agent with Eve: The Open Agent Framework",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:28:46.398Z"
+    },
+    "fF_SQ51E4C8": {
+      "slug": "dal-prototipo-alla-scala-globale-come-unire-la-velocita-di-vercel-e-la-profondit",
+      "title": "Dal prototipo alla scala globale: come unire la velocità di Vercel e la profondità di AWS",
+      "sourceTitle": "Ship 26 NYC - Think Bigger: From Prototype to Global Scale with Vercel and AWS",
+      "publishedAt": "2026-07-20",
+      "createdAt": "2026-07-21T08:30:10.729Z"
+    },
+    "_kNabHEZQlo": {
+      "slug": "dijkstra-e-i-20-minuti-che-hanno-cambiato-il-modo-in-cui-troviamo-la-strada",
+      "title": "Dijkstra e i 20 minuti che hanno cambiato il modo in cui troviamo la strada",
+      "sourceTitle": "Did you know that Dijkstra came up with his famous algorithm in about 20 minutes?",
+      "publishedAt": "2026-07-21",
+      "createdAt": "2026-07-22T08:21:50.780Z"
+    },
+    "BH9ZgUYjiic": {
+      "slug": "tanstack-intent-buona-idea-integrazione-fragile-e-come-fare-meglio-senza-magia",
+      "title": "TanStack Intent: buona idea, integrazione fragile (e come fare meglio senza “magia”)",
+      "sourceTitle": "I Wish This Was Better",
+      "publishedAt": "2026-07-21",
+      "createdAt": "2026-07-22T08:22:30.198Z"
+    },
+    "PxEK-k6Efi0": {
+      "slug": "da-una-foto-a-un-oggetto-3d-interattivo-con-three-js-in-pochi-minuti-davvero",
+      "title": "Da una foto a un oggetto 3D interattivo con Three.js in pochi minuti (davvero)",
+      "sourceTitle": "From Pictures of Objects to 3D Three.js in MINUTES",
+      "publishedAt": "2026-07-21",
+      "createdAt": "2026-07-22T08:23:20.931Z"
+    },
+    "-OYQTmSBS3A": {
+      "slug": "react-native-performance-guide-da-dove-partire-davvero-in-base-al-tuo-ruolo",
+      "title": "React Native Performance Guide: da dove partire (davvero) in base al tuo ruolo",
+      "sourceTitle": "Where to start with Performance Guide?",
+      "publishedAt": "2026-07-22",
+      "createdAt": "2026-07-22T08:23:53.590Z"
+    },
+    "5lJ0a6tdj-4": {
+      "slug": "webmcp-progettare-strumenti-agent-friendly-e-debuggarli-in-chrome-devtools",
+      "title": "WebMCP: progettare strumenti “agent-friendly” e debuggarli in Chrome DevTools",
+      "sourceTitle": "How to build and debug WebMCP tools for browser agents",
+      "publishedAt": "2026-07-21",
+      "createdAt": "2026-07-22T08:24:29.289Z"
+    },
+    "VyoTAuLb0ck": {
+      "slug": "perche-l-harness-batte-il-modello-lezioni-pratiche-dai-sistemi-multi-agente",
+      "title": "Perché l’“harness” batte il modello: lezioni pratiche dai sistemi multi‑agente",
+      "sourceTitle": "Cursor Team Proved Harness matters more than Models",
+      "publishedAt": "2026-07-22",
+      "createdAt": "2026-07-22T08:25:15.925Z"
+    },
+    "yVga-_gMfIM": {
+      "slug": "sviluppare-e-deployare-un-app-con-ai-dal-requisito-in-una-frase-al-rilascio-con-",
+      "title": "Sviluppare e deployare un’app con AI: dal requisito in una frase al rilascio (con IDE, agenti e multi-agent)",
+      "sourceTitle": "AI-Assisted Development Tutorial – Multi-Agent Coding & Deployment with TRAE IDE",
+      "publishedAt": "2026-07-22",
+      "createdAt": "2026-07-23T08:24:49.683Z"
+    },
+    "YP73B9D20V4": {
+      "slug": "kimi-k3-e-l-era-dei-pesi-aperti-cosa-cambia-davvero-per-chi-fa-frontend",
+      "title": "Kimi K3 e l’era dei pesi aperti: cosa cambia davvero per chi fa frontend",
+      "sourceTitle": "Open-weight AI just hit 2.8 trillion parameters…",
+      "publishedAt": "2026-07-22",
+      "createdAt": "2026-07-23T08:25:39.987Z"
+    },
+    "KD3_l3S_D6M": {
+      "slug": "animare-l-entrata-uscita-da-display-none-in-css-finalmente",
+      "title": "Animare l’entrata/uscita da display: none in CSS (finalmente)",
+      "sourceTitle": "Transition to and from display: none",
+      "publishedAt": "2026-07-22",
+      "createdAt": "2026-07-23T08:26:15.166Z"
+    },
+    "4FvIlVWWCnE": {
+      "slug": "chrome-web-store-come-aumentare-le-probabilita-di-approvazione-al-primo-invio",
+      "title": "Chrome Web Store: come aumentare le probabilità di approvazione al primo invio",
+      "sourceTitle": "How to get Chrome Web Store approval",
+      "publishedAt": "2026-07-22",
+      "createdAt": "2026-07-23T08:26:53.384Z"
+    },
+    "KOpTWx1Eou4": {
+      "slug": "quando-un-benchmark-diventa-un-attacco-la-prima-intrusione-autonoma-fatta-da-un-",
+      "title": "Quando un benchmark diventa un attacco: la prima intrusione “autonoma” fatta da un agente AI",
+      "sourceTitle": "The most interesting \"hack\" in history...",
+      "publishedAt": "2026-07-23",
+      "createdAt": "2026-07-24T08:20:41.527Z"
+    },
+    "GIoYrH2jn3U": {
+      "slug": "line-height-perche-1-5-e-150-non-sono-la-stessa-cosa",
+      "title": "line-height: perché 1.5 e 150% non sono la stessa cosa",
+      "sourceTitle": "Wait, line-height works like that?!",
+      "publishedAt": "2026-07-23",
+      "createdAt": "2026-07-24T08:21:05.673Z"
+    },
+    "F0pH9aQeDrY": {
+      "slug": "agent-skills-come-usarle-davvero-bene-e-quando-non-servono",
+      "title": "Agent Skills: come usarle davvero bene (e quando NON servono)",
+      "sourceTitle": "You're probably not using agent skills right",
+      "publishedAt": "2026-07-23",
+      "createdAt": "2026-07-24T08:21:48.167Z"
+    },
+    "2U3kFesNNcI": {
+      "slug": "cosa-succede-davvero-quando-clicchi-un-link-in-chrome",
+      "title": "Cosa succede davvero quando clicchi un link (in Chrome)",
+      "sourceTitle": "What actually happens when you click a link?",
+      "publishedAt": "2026-07-23",
+      "createdAt": "2026-07-24T08:23:51.135Z"
+    },
+    "bYgphDEWwvs": {
+      "slug": "express-con-typescript-setup-pulito-typing-concreto-e-workflow-senza-attriti",
+      "title": "Express con TypeScript: setup pulito, typing concreto e workflow senza attriti",
+      "sourceTitle": "TypeScript in Express – TypeScript Tutorial",
+      "publishedAt": "2026-07-24",
+      "createdAt": "2026-07-25T08:01:15.297Z"
+    },
+    "YSYqFBq68Wk": {
+      "slug": "come-usare-l-ai-per-design-ui-divertente-senza-finire-nel-solito-design-insipido",
+      "title": "Come usare l’AI per design UI “divertente” senza finire nel solito design insipido",
+      "sourceTitle": "Using Claude Design 2.0 to NOT Produce SLOP",
+      "publishedAt": "2026-07-24",
+      "createdAt": "2026-07-25T08:01:51.520Z"
+    },
+    "NjkVAM_dE2w": {
+      "slug": "le-nuove-funzionalita-ai-integrate-in-chrome-modelli-locali-nel-browser-e-api-pe",
+      "title": "Le nuove funzionalità AI integrate in Chrome: modelli locali nel browser e API per esperienze più “smart”",
+      "sourceTitle": "New AI features in Chrome",
+      "publishedAt": "2026-07-24",
+      "createdAt": "2026-07-25T08:02:18.198Z"
+    },
+    "O3foXkb1Zos": {
+      "slug": "l-ai-non-ruba-il-lavoro-agli-sviluppatori-bravi-sposta-il-valore-piu-in-alto-nel",
+      "title": "L’AI non “ruba” il lavoro agli sviluppatori bravi: sposta il valore più in alto nella filiera",
+      "sourceTitle": "AI won't necessarily displace skilled devs - it'll just move their value up the chain",
+      "publishedAt": "2026-07-25",
+      "createdAt": "2026-07-26T08:21:19.328Z"
+    },
+    "Ef_jkVK_YH8": {
+      "slug": "smettere-di-leggere-il-codice-come-validare-davvero-feature-generate-da-ai",
+      "title": "Smettere di “leggere il codice”: come validare davvero feature generate da AI",
+      "sourceTitle": "Reading code is a thing of the past. Do this instead",
+      "publishedAt": "2026-07-27",
+      "createdAt": "2026-07-28T08:28:58.046Z"
+    },
+    "70XCwYKvbII": {
+      "slug": "vercel-cli-come-building-block-per-agent-sandbox-feature-flag-curl-e-binari-nati",
+      "title": "Vercel CLI come “building block” per agent: sandbox, feature flag, curl e binari nativi",
+      "sourceTitle": "The Vercel CLI is Now Built for AI Agents",
+      "publishedAt": "2026-07-27",
+      "createdAt": "2026-07-28T08:29:57.291Z"
+    },
+    "lFXt6mBEiTQ": {
+      "slug": "il-segreto-non-troppo-segreto-dietro-le-ai-moderne-il-transformer",
+      "title": "Il segreto (non troppo segreto) dietro le AI moderne: il Transformer",
+      "sourceTitle": "Behind the popular AI tools lies a crucial bit of tech called a transformer.",
+      "publishedAt": "2026-07-28",
+      "createdAt": "2026-07-29T08:33:39.420Z"
+    },
+    "XMnRj4ooYz8": {
+      "slug": "stampa-3d-e-manifattura-additiva-in-chiave-industry-4-0-tecnologie-flusso-digita",
+      "title": "Stampa 3D e manifattura additiva in chiave Industry 4.0: tecnologie, flusso digitale e impatto reale",
+      "sourceTitle": "3D Printing & Additive Manufacturing – Full Course",
+      "publishedAt": "2026-07-28",
+      "createdAt": "2026-07-29T08:34:38.314Z"
+    },
+    "jxGJT1weu4w": {
+      "slug": "claude-opus-5-e-il-futuro-dell-indie-hacking-quando-il-moat-non-e-piu-il-codice",
+      "title": "Claude Opus 5 e il futuro dell’indie hacking: quando il “moat” non è più il codice",
+      "sourceTitle": "Did Anthropic just kill the indie hacker...?",
+      "publishedAt": "2026-07-29",
+      "createdAt": "2026-07-30T08:18:54.494Z"
+    },
+    "3-97xCM_N1I": {
+      "slug": "lascia-che-sia-css-a-fare-il-lavoro-meno-numeri-magici-in-javascript-piu-compone",
+      "title": "Lascia che sia CSS a fare il lavoro: meno “numeri magici” in JavaScript, più componenti leggibili",
+      "sourceTitle": "Let CSS do the work",
+      "publishedAt": "2026-07-29",
+      "createdAt": "2026-07-30T08:19:37.993Z"
+    },
+    "_UYUAaAfvdA": {
+      "slug": "progettare-un-app-phygital-quando-ui-computer-vision-e-proiezione-diventano-un-u",
+      "title": "Progettare un’app “phygital”: quando UI, computer vision e proiezione diventano un unico prodotto",
+      "sourceTitle": "Demo video of my most ambitious product",
+      "publishedAt": "2026-07-29",
+      "createdAt": "2026-07-30T08:20:46.318Z"
+    },
+    "Zy7EXDONlTY": {
+      "slug": "agentic-ai-per-workflow-reali-come-progettare-sistemi-multi-agente-con-langchain",
+      "title": "Agentic AI per workflow reali: come progettare sistemi multi-agente con LangChain e LangGraph",
+      "sourceTitle": "Agentic AI – Complete Course for Beginners",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-31T08:44:54.667Z"
+    },
+    "YHQWuLG78Hw": {
+      "slug": "project-based-learning-nel-frontend-insegnare-partendo-dall-obiettivo-non-dalla-",
+      "title": "Project-based learning nel frontend: insegnare partendo dall’obiettivo, non dalla teoria",
+      "sourceTitle": "Project-based learning is a popular way to teach these days",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-31T08:45:39.097Z"
+    },
+    "6ArP91qzFFc": {
+      "slug": "animare-elementi-lungo-il-bordo-con-css-offset-path-border-box",
+      "title": "Animare elementi lungo il bordo con CSS: offset-path: border-box",
+      "sourceTitle": "Animate along a border with this CSS property",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-31T08:46:19.505Z"
+    },
+    "fEn-PQXBp28": {
+      "slug": "un-news-agent-per-react-native-aggiornamenti-automatici-su-slack-con-eve",
+      "title": "Un “News Agent” per React Native: aggiornamenti automatici su Slack con Eve",
+      "sourceTitle": "Build a React Native News Agent With Eve",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-31T08:47:19.421Z"
+    },
+    "hcNflnDq8Ms": {
+      "slug": "ispezionare-e-testare-gli-strumenti-webmcp-con-chrome-devtools",
+      "title": "Ispezionare e testare gli strumenti WebMCP con Chrome DevTools",
+      "sourceTitle": "Inspect and test WebMCP tools using Chrome DevTools",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-31T08:47:52.071Z"
+    },
+    "EDZgkm_0e5s": {
+      "slug": "next-js-native-vercel-ovunque-cosa-dice-davvero-una-startup-piccola-ma-lucida-su",
+      "title": "Next.js “native”, Vercel ovunque: cosa dice davvero una startup piccola (ma lucida) sul modo moderno di costruire prodotto",
+      "sourceTitle": "npx airfry@latest cal.com | VTV Cribs",
+      "publishedAt": "2026-07-30",
+      "createdAt": "2026-07-31T08:48:35.701Z"
+    },
+    "hAsz5GAbBQE": {
+      "slug": "kubernetes-operator-con-kubebuilder-best-practice-per-evitare-conflitti-retry-in",
+      "title": "Kubernetes Operator con Kubebuilder: best practice per evitare conflitti, retry inutili e reconciliation infinite",
+      "sourceTitle": "Kubernetes Operator Best Practices – Kubebuilder Deep Dive",
+      "publishedAt": "2026-07-31",
+      "createdAt": "2026-08-01T08:14:10.930Z"
+    },
+    "pj58ntQq9qc": {
+      "slug": "perche-i-benchmark-ai-stanno-diventando-inaffidabili-e-cosa-possiamo-imparare-da",
+      "title": "Perché i benchmark AI stanno diventando inaffidabili (e cosa possiamo imparare da questa crisi)",
+      "sourceTitle": "This is why AI benchmarks can not be trusted anymore",
+      "publishedAt": "2026-08-03",
+      "createdAt": "2026-08-03T09:36:30.043Z"
+    },
+    "325V6ziaTmA": {
+      "slug": "eve-agent-ai-senza-plumbing-e-con-una-struttura-che-sta-in-una-cartella",
+      "title": "eve: agent AI senza “plumbing” (e con una struttura che sta in una cartella)",
+      "sourceTitle": "eve: AI agents without the plumbing",
+      "publishedAt": "2026-08-03",
+      "createdAt": "2026-08-04T08:31:56.468Z"
+    },
+    "xI3egb3_ihI": {
+      "slug": "visioncamera-v5-la-camera-in-react-native-diventa-un-sdk-e-nitro-chiude-il-cerch",
+      "title": "VisionCamera v5: la camera in React Native diventa un SDK (e Nitro chiude il cerchio)",
+      "sourceTitle": "VisionCamera v5 With Marc Rousavy | React Universe On Air",
+      "publishedAt": "2026-08-04",
+      "createdAt": "2026-08-05T08:29:32.292Z"
+    },
+    "7l6bXLAKyEI": {
+      "slug": "claude-code-in-locale-setup-in-vs-code-permessi-goals-e-integrazioni-mcp-senza-p",
+      "title": "Claude Code in locale: setup in VS Code, permessi, Goals e integrazioni MCP (senza perdersi nei dettagli)",
+      "sourceTitle": "Claude Code Full Course – Autonomous Goals, MCP, and VS Code Setup",
+      "publishedAt": "2026-08-05",
+      "createdAt": "2026-08-06T08:28:37.756Z"
+    },
+    "2X2V3xv_jik": {
+      "slug": "quando-air-gapped-non-basta-la-lezione-coldcard-su-rng-firmware-e-supply-chain",
+      "title": "Quando “air‑gapped” non basta: la lezione Coldcard su RNG, firmware e supply chain",
+      "sourceTitle": "The safest way to store Bitcoin was just hacked...",
+      "publishedAt": "2026-08-05",
+      "createdAt": "2026-08-06T08:29:31.219Z"
+    },
+    "fG6ToJJ9x_Y": {
+      "slug": "props-for-that-la-libreria-che-fa-parlare-javascript-e-css-senza-incollare-tutto",
+      "title": "Props (for that): la libreria che fa parlare JavaScript e CSS senza incollare tutto a mano",
+      "sourceTitle": "This library changes how JS and CSS work together",
+      "publishedAt": "2026-08-05",
+      "createdAt": "2026-08-06T08:30:08.235Z"
+    },
+    "RulF_MU1yZ8": {
+      "slug": "non-sottovalutare-css-subgrid-card-allineate-senza-trucchi",
+      "title": "Non sottovalutare CSS Subgrid: card allineate senza trucchi",
+      "sourceTitle": "Don't sleep on subgrid",
+      "publishedAt": "2026-08-06",
+      "createdAt": "2026-08-07T07:08:51.745Z"
+    },
+    "o8-EgQhqdU0": {
+      "slug": "perche-pi-mi-ha-conquistato-minimalismo-costi-ridotti-e-un-estensibilita-che-cam",
+      "title": "Perché Pi mi ha conquistato: minimalismo, costi ridotti e un’estensibilità che cambia il modo di lavorare",
+      "sourceTitle": "Here's why I like Pi",
+      "publishedAt": "2026-08-06",
+      "createdAt": "2026-08-07T07:09:41.469Z"
+    },
+    "fuM5whtLzQk": {
+      "slug": "ai-per-developer-cosa-accelera-davvero-e-cosa-ti-fa-perdere-tempo",
+      "title": "AI per developer: cosa accelera davvero (e cosa ti fa perdere tempo)",
+      "sourceTitle": "AI for Developers: What Actually Helps, What Slows You Down. | | Stay Tuned for Our Livestreams",
+      "publishedAt": "2026-08-06",
+      "createdAt": "2026-08-07T07:10:19.734Z"
+    },
+    "2q9d7ANaXeA": {
+      "slug": "lighthouse-in-devtools-per-agent-audit-automatici-accessibilita-seo-e-agentic-br",
+      "title": "Lighthouse in DevTools per agent: audit automatici (accessibilità, SEO e “agentic browsing”) senza copy‑paste",
+      "sourceTitle": "Lighthouse audits with DevTools for agents",
+      "publishedAt": "2026-08-06",
+      "createdAt": "2026-08-07T07:11:39.800Z"
+    },
+    "Q470Uld3vfY": {
+      "slug": "autenticazione-moderna-senza-impazzire-email-password-oauth-passkey-e-stripe-con",
+      "title": "Autenticazione moderna senza impazzire: email/password, OAuth, passkey e Stripe con una configurazione unica",
+      "sourceTitle": "The Right Way to Add Secure Auth in 10 mins",
+      "publishedAt": "2026-08-07",
+      "createdAt": "2026-08-07T07:12:25.416Z"
+    },
+    "rgqw3bT6cwU": {
+      "slug": "5-regole-per-rendere-ripetibili-i-test-qa-con-agenti-ai-senza-flakiness",
+      "title": "5 regole per rendere ripetibili i test QA con agenti AI (senza flakiness)",
+      "sourceTitle": "Five Rules Can Make an AI QA Run Repeatable",
+      "publishedAt": "2026-08-10",
+      "createdAt": "2026-08-10T07:24:05.754Z"
+    },
+    "aB5LGrHISqY": {
+      "slug": "robot-umanoidi-e-ai-perche-la-hype-corre-piu-veloce-della-realta-e-cosa-signific",
+      "title": "Robot umanoidi e AI: perché la hype corre più veloce della realtà (e cosa significa per chi fa software)",
+      "sourceTitle": "I spent 3 days at MIT... the robot hype is worse than you think",
+      "publishedAt": "2026-08-11",
+      "createdAt": "2026-08-12T07:19:36.412Z"
+    },
+    "-QG404jSW9w": {
+      "slug": "meno-hype-piu-operativita-come-parlare-di-ai-in-modo-utile-per-i-team-frontend",
+      "title": "Meno hype, più operatività: come parlare di AI in modo utile per i team frontend",
+      "sourceTitle": "Nobody needs more vague AI talk but we need to know how to use it | Join us on Thursday Live Stream",
+      "publishedAt": "2026-08-11",
+      "createdAt": "2026-08-12T07:20:37.239Z"
+    },
+    "G55HSGpuh1M": {
+      "slug": "muse-glimmer-il-modello-agentico-open-source-di-meta-che-vuole-accesso-profondo-",
+      "title": "Muse Glimmer: il modello “agentico” open source di Meta che vuole accesso profondo alla tua vita (anche in locale)",
+      "sourceTitle": "Meta's new model wants \"deep access\" to your personal life...",
+      "publishedAt": "2026-08-12",
+      "createdAt": "2026-08-13T07:20:33.371Z"
+    },
+    "2pJHWhmqlNU": {
+      "slug": "la-competenza-front-end-piu-sottovalutata-oggi-saper-fare-debug-davvero",
+      "title": "La competenza front-end più sottovalutata oggi: saper fare debug (davvero)",
+      "sourceTitle": "The most undervalued front-end skill right now",
+      "publishedAt": "2026-08-12",
+      "createdAt": "2026-08-13T07:21:09.286Z"
+    },
+    "wazlBxxTohA": {
+      "slug": "rendere-permanente-un-hover-con-una-sola-riga-di-css-senza-javascript",
+      "title": "Rendere “permanente” un hover con una sola riga di CSS (senza JavaScript)",
+      "sourceTitle": "Make a hover state stick forever with this simple trick",
+      "publishedAt": "2026-08-13",
+      "createdAt": "2026-08-14T07:17:50.628Z"
+    },
+    "G-v1hkQ8Sf8": {
+      "slug": "celld-durable-objects-e-worker-stateful-ma-self-hosted-senza-rinunciare-al-model",
+      "title": "Celld: durable objects e “worker” stateful, ma self-hosted (senza rinunciare al modello Cloudflare)",
+      "sourceTitle": "Self-hosted Cloudflare?",
+      "publishedAt": "2026-08-13",
+      "createdAt": "2026-08-14T07:18:37.040Z"
+    },
+    "eiGcqvji4nk": {
+      "slug": "apex-perche-un-modello-specializzato-puo-battere-i-frontier-su-react-native",
+      "title": "Apex: perché un modello specializzato può battere i “frontier” su React Native",
+      "sourceTitle": "Can a Specialized Model Beat Frontier Models at React Native?",
+      "publishedAt": "2026-08-13",
+      "createdAt": "2026-08-14T07:19:16.441Z"
+    },
+    "mnPieSQvZv8": {
+      "slug": "correggere-gli-errori-lighthouse-con-un-agente-ai-direttamente-in-chrome-devtool",
+      "title": "Correggere gli errori Lighthouse con un agente AI direttamente in Chrome DevTools",
+      "sourceTitle": "How AI agents fix Lighthouse errors in Chrome DevTools",
+      "publishedAt": "2026-08-13",
+      "createdAt": "2026-08-14T07:20:24.266Z"
+    },
+    "wRJWpUKMESU": {
+      "slug": "perche-smettere-di-usare-corepack-per-installare-pnpm-e-cosa-fare-invece",
+      "title": "Perché smettere di usare Corepack per installare pnpm (e cosa fare invece)",
+      "sourceTitle": "Stop Using Corepack to Install PNPM",
+      "publishedAt": "2026-08-15",
+      "createdAt": "2026-08-16T06:32:30.441Z"
+    },
+    "qfbrSXRZCfE": {
+      "slug": "che-framework-scegliere-oggi-il-paradosso-vince-svelte-ma-nessun-framework-e-tra",
+      "title": "Che framework scegliere oggi? Il paradosso: vince Svelte, ma “nessun framework” è tra i preferiti",
+      "sourceTitle": "What framework do developers like the most? | Front-end Family Feud",
+      "publishedAt": "2026-08-20",
+      "createdAt": "2026-08-21T06:38:42.829Z"
+    },
+    "g3X8JauSWTM": {
+      "slug": "basta-interfacce-tutte-uguali-un-workflow-pratico-per-costruire-front-end-di-liv",
+      "title": "Basta interfacce “tutte uguali”: un workflow pratico per costruire front-end di livello con l’AI",
+      "sourceTitle": "Stop Building AI Slop – Build High-End Web Apps with AI",
+      "publishedAt": "2026-08-25",
+      "createdAt": "2026-08-26T06:40:49.323Z"
+    },
+    "b-P5ZQ1NxxE": {
+      "slug": "metamuse-code-e-muse-spark-modelli-api-compatibili-e-coding-harness-per-costruir",
+      "title": "MetaMuse Code e Muse Spark: modelli, API compatibili e “coding harness” per costruire agenti e app full‑stack",
+      "sourceTitle": "Meta Muse Code & Muse Spark Course – Build AI Agents, APIs, and Full-Stack Apps",
+      "publishedAt": "2026-08-26",
+      "createdAt": "2026-08-27T17:16:53.992Z"
+    },
+    "PBFooCG3ClY": {
+      "slug": "underline-magico-in-css-con-anchor-positioning-l-effetto-che-prima-era-un-incubo",
+      "title": "Underline “magico” in CSS con Anchor Positioning: l’effetto che prima era un incubo, ora sono poche righe",
+      "sourceTitle": "I wish this had always been so easy",
+      "publishedAt": "2026-08-27",
+      "createdAt": "2026-08-27T17:17:41.573Z"
+    },
+    "onraoQExbHw": {
+      "slug": "animazioni-scroll-trigger-solo-con-css-e-che-non-si-riavviano-una-tecnica-modern",
+      "title": "Animazioni “scroll-trigger” solo con CSS (e che non si riavviano): una tecnica moderna e pulita",
+      "sourceTitle": "Nobody told me CSS could do this",
+      "publishedAt": "2026-08-26",
+      "createdAt": "2026-08-27T17:18:22.748Z"
+    },
+    "UuqSy1jPSUw": {
+      "slug": "knight-capital-come-un-feature-flag-dimenticato-ha-bruciato-440-milioni-in-45-mi",
+      "title": "Knight Capital: come un feature flag dimenticato ha bruciato 440 milioni in 45 minuti",
+      "sourceTitle": "The most expensive software bug in history...",
+      "publishedAt": "2026-08-27",
+      "createdAt": "2026-08-28T18:09:16.840Z"
+    },
+    "H5poN8Q4cuk": {
+      "slug": "testare-e-debuggare-estensioni-chrome-con-un-coding-agent-devtools-for-agents-in",
+      "title": "Testare e debuggare estensioni Chrome con un coding agent: DevTools for agents in pratica",
+      "sourceTitle": "Develop Chrome Extensions with DevTools for agents",
+      "publishedAt": "2026-08-27",
+      "createdAt": "2026-08-28T18:10:54.702Z"
+    },
+    "wIZoBAAJRDU": {
+      "slug": "graph-agentic-coding-quando-il-workflow-ai-diventa-un-grafo-e-smette-di-essere-u",
+      "title": "Graph Agentic Coding: quando il workflow AI diventa un grafo (e smette di essere una chat)",
+      "sourceTitle": "How Graph Agentic Coding Extends AI Workflows",
+      "publishedAt": "2026-08-28",
+      "createdAt": "2026-08-29T12:12:19.736Z"
+    },
+    "gvhsKtjAmgc": {
+      "slug": "formule-excel-per-chi-ragiona-da-developer-operatori-precedenze-e-riferimenti-se",
+      "title": "Formule Excel per chi ragiona da developer: operatori, precedenze e riferimenti (senza impazzire)",
+      "sourceTitle": "Excel Formulas & Functions – Full Course",
+      "publishedAt": "2026-09-01",
+      "createdAt": "2026-09-02T10:31:13.766Z"
+    },
+    "r-tzcMlQISk": {
+      "slug": "glm-5-3-flash-ex-ox-alpha-il-modello-multimodale-che-ha-conquistato-i-dev-con-un",
+      "title": "GLM 5.3 Flash (ex “Ox Alpha”): il modello multimodale che ha conquistato i dev con un costo fuori scala",
+      "sourceTitle": "The mystery is solved... and the answer is 40x cheaper than Claude",
+      "publishedAt": "2026-09-01",
+      "createdAt": "2026-09-02T10:31:51.029Z"
+    },
+    "0Rp9KJCEIvg": {
+      "slug": "quando-1-200-agenti-isolati-trovano-un-modo-per-parlarsi-la-lezione-piu-scomoda-",
+      "title": "Quando 1.200 agenti “isolati” trovano un modo per parlarsi: la lezione più scomoda per le sandbox moderne",
+      "sourceTitle": "The most interesting hack in history just got weirder...",
+      "publishedAt": "2026-09-02",
+      "createdAt": "2026-09-03T10:36:23.894Z"
+    },
+    "Tdpoa1j5fcU": {
+      "slug": "text-box-trim-la-fine-del-padding-sbilanciato-e-dei-magic-number",
+      "title": "text-box-trim: la fine del padding “sbilanciato” (e dei magic number)",
+      "sourceTitle": "This CSS property fixes a problem as old as CSS",
+      "publishedAt": "2026-09-02",
+      "createdAt": "2026-09-03T10:36:56.061Z"
+    },
+    "FGT7LZbZe-g": {
+      "slug": "dalla-fisica-del-silicio-al-rack-ai-come-nasce-e-lavora-un-acceleratore-moderno",
+      "title": "Dalla fisica del silicio al rack AI: come nasce (e lavora) un acceleratore moderno",
+      "sourceTitle": "Inside the AI Hardware Engine – Full Semiconductor Supply Chain Course",
+      "publishedAt": "2026-09-03",
+      "createdAt": "2026-09-04T10:30:00.529Z"
+    },
+    "o6JI2jdiWrc": {
+      "slug": "la-sintassi-css-che-finiamo-sempre-per-cercare-perche-e-come-smettere-di-inciamp",
+      "title": "La sintassi CSS che finiamo sempre per cercare: perché (e come) smettere di inciampare",
+      "sourceTitle": "What CSS syntax do devs have to always look up? | Front-end Family Feud",
+      "publishedAt": "2026-09-03",
+      "createdAt": "2026-09-04T10:30:49.419Z"
+    },
+    "1ZGlnGUp0XA": {
+      "slug": "devtools-for-agents-come-estendere-chrome-devtools-con-strumenti-di-terze-parti-",
+      "title": "DevTools for Agents: come estendere Chrome DevTools con strumenti di terze parti (in puro JavaScript)",
+      "sourceTitle": "Third-party tools for Chrome DevTools for Agents",
+      "publishedAt": "2026-09-03",
+      "createdAt": "2026-09-04T10:31:55.744Z"
+    },
+    "yWp_p6YYzt8": {
+      "slug": "perche-il-tuo-web-scraper-viene-bloccato-e-come-evitarlo-con-una-configurazione-",
+      "title": "Perché il tuo web scraper viene bloccato (e come evitarlo con una configurazione minima)",
+      "sourceTitle": "Why Your Web Scraper Gets Blocked (And How to Fix It)",
+      "publishedAt": "2026-09-04",
+      "createdAt": "2026-09-05T09:54:17.598Z"
+    },
+    "FluKUJyeYD8": {
+      "slug": "gpt-6-astra-e-la-settimana-in-cui-l-ai-ha-cambiato-ritmo-cosa-significa-per-chi-",
+      "title": "GPT-6 Astra e la settimana in cui l’AI ha cambiato ritmo: cosa significa per chi sviluppa",
+      "sourceTitle": "Did OpenAI actually build AGI? GPT-6 Astra first look",
+      "publishedAt": "2026-09-04",
+      "createdAt": "2026-09-05T09:55:07.261Z"
+    },
+    "GAyfTSsOXMI": {
+      "slug": "chrome-devtools-per-agenti-test-automatici-di-estensioni-chrome-installazione-ap",
+      "title": "Chrome DevTools per agenti: test automatici di estensioni Chrome (installazione, apertura, interazione)",
+      "sourceTitle": "How to use Chrome DevTools for agents with Chrome extensions",
+      "publishedAt": "2026-09-04",
+      "createdAt": "2026-09-05T09:55:30.689Z"
+    },
+    "Y5rSSvXfL4g": {
+      "slug": "un-ai-stack-self-hosted-per-dev-5-tool-open-source-per-tagliare-costi-e-caos-sen",
+      "title": "Un AI stack self-hosted per dev: 5 tool open source per tagliare costi e caos (senza perdere potenza)",
+      "sourceTitle": "5 open source tools that replaced my $320/mo AI stack...",
+      "publishedAt": "2026-09-07",
+      "createdAt": "2026-09-08T10:30:48.244Z"
+    },
+    "elAVSra9KCY": {
+      "slug": "ai-on-device-nel-browser-con-transformers-js-pipeline-modelli-onnx-e-accelerazio",
+      "title": "AI on-device nel browser con Transformers.js: pipeline, modelli ONNX e accelerazione con WebGPU",
+      "sourceTitle": "On-Device AI With Transformers.js, WebGPU, and Hugging Face | React Universe On Air",
+      "publishedAt": "2026-09-07",
+      "createdAt": "2026-09-08T10:31:55.364Z"
+    },
+    "-Z11mZaJU0w": {
+      "slug": "smettiamo-di-costruire-con-l-ai-a-caso-cosa-serve-davvero-per-crescere-come-fron",
+      "title": "Smettiamo di “costruire con l’AI” a caso: cosa serve davvero per crescere come frontend nel 2026",
+      "sourceTitle": "Please… I Need Your Help",
+      "publishedAt": "2026-09-08",
+      "createdAt": "2026-09-09T10:41:38.280Z"
+    },
+    "kLZgQWjnUz0": {
+      "slug": "python-per-chi-fa-frontend-variabili-stringhe-e-input-per-costruire-una-mini-app",
+      "title": "Python per chi fa frontend: variabili, stringhe e input per costruire una mini app “split bill”",
+      "sourceTitle": "Learn Python – Interactive Course 2026",
+      "publishedAt": "2026-09-09",
+      "createdAt": "2026-09-10T10:30:55.569Z"
+    },
+    "2Xiljy4xzbc": {
+      "slug": "astra-vs-fable-5-1-quando-l-ai-fa-grafica-spettacolare-ma-il-game-feel-resta-un-",
+      "title": "Astra vs Fable 5.1: quando l’AI fa grafica spettacolare, ma il “game feel” resta un problema",
+      "sourceTitle": "I built the same game with Astra and Fable 5.1... only one was fun",
+      "publishedAt": "2026-09-09",
+      "createdAt": "2026-09-10T10:32:17.697Z"
+    },
+    "6-cg8Z74MPI": {
+      "slug": "css-ora-sa-contare-sibling-index-e-sibling-count-per-animazioni-e-z-index-senza-",
+      "title": "CSS ora sa “contare”: sibling-index e sibling-count per animazioni e z-index senza hack",
+      "sourceTitle": "CSS can count now!",
+      "publishedAt": "2026-09-09",
+      "createdAt": "2026-09-10T10:33:28.874Z"
+    },
+    "o3CX_Y59_74": {
+      "slug": "openai-codex-guida-pratica-all-agente-autonomo-per-scrivere-testare-e-distribuir",
+      "title": "OpenAI Codex: guida pratica all’agente autonomo per scrivere, testare e distribuire app",
+      "sourceTitle": "OpenAI Codex Crash Course – Build & Deploy Apps with Autonomous AI",
+      "publishedAt": "2026-09-10",
+      "createdAt": "2026-09-11T10:32:03.533Z"
+    },
+    "3hVffhSpldo": {
+      "slug": "invalid-fa-schifo-un-po-meglio-passare-a-user-invalid-e-user-valid-per-i-form",
+      "title": "`:invalid` “fa schifo” (un po’): meglio passare a `:user-invalid` e `:user-valid` per i form",
+      "sourceTitle": ":invalid sorta sucks... but there's an alternative now",
+      "publishedAt": "2026-09-10",
+      "createdAt": "2026-09-11T10:32:25.642Z"
+    },
+    "OML41EaXFBs": {
+      "slug": "devtools-su-misura-costruire-strumenti-interni-in-chrome-devtools-con-poche-righ",
+      "title": "DevTools “su misura”: costruire strumenti interni in Chrome DevTools con poche righe di JavaScript",
+      "sourceTitle": "Build custom third-party tools in Chrome DevTools",
+      "publishedAt": "2026-09-10",
+      "createdAt": "2026-09-11T10:33:09.997Z"
+    },
+    "aspmNhKAFMc": {
+      "slug": "navier-stokes-ai-e-priorita-quando-una-soluzione-diventa-un-problema-di-fiducia",
+      "title": "Navier–Stokes, AI e priorità: quando una “soluzione” diventa un problema di fiducia",
+      "sourceTitle": "OpenAI's biggest math breakthrough is getting ugly...",
+      "publishedAt": "2026-09-11",
+      "createdAt": "2026-09-12T09:59:55.566Z"
+    }
+  }
+}
