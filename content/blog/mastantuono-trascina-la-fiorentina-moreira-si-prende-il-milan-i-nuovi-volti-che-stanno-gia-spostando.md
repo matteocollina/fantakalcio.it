@@ -1,0 +1,18 @@
+---
+title: "Mastantuono trascina la Fiorentina, Moreira si prende il Milan: i nuovi volti che stanno già spostando il Fantacalcio"
+subtitle: "Tra show in campo e scenari di mercato, ecco chi sale e chi scende dopo l’ultimo turno: attenzione però alla lista infortunati, che cambia le gerarchie."
+description: "Mastantuono e Moreira sono già protagonisti certificati dalle cronache: tripletta a Venezia per il viola e doppietta all’Olimpico per il rossonero. Sullo sfondo, le rotazioni difensive dell’Inter (con Stones ai box) e alcune scommesse low cost che si stanno ritagliando spazio, senza forzare letture su ruoli e disponibilità."
+publishedAt: 2026-09-16
+tags: ["Mastantuono","Moreira","Fiorentina","Milan","Inter","infortuni"]
+---
+La notizia più pesante, per campo e per Fantacalcio, arriva dai protagonisti che hanno già lasciato il segno nell’ultima giornata: **Mastantuono** ha firmato una **tripletta** nel 2-4 della Fiorentina a Venezia, mentre **Moreira** è entrato e ha realizzato una **doppietta** nel 2-2 del Milan all’Olimpico contro la Lazio. Due exploit “certificati” che inevitabilmente accendono l’interesse: nel caso del viola, la prestazione è stata addirittura definita “show”; nel caso del rossonero, l’impatto da subentrato ha ribaltato l’inerzia della gara.
+
+Sul fronte delle big, continua anche la scia della **pazza Inter**, capace di passare **da 0-2 a 5-3** contro l’Udinese: nelle cronache ufficiali spiccano le prove di **Carlos Augusto**, **Barella** e **Thuram**, con gol anche per **Esposito Se.** e **Bonny**. Un contesto che, in ottica fanta, ribadisce la forza del reparto offensivo nerazzurro, ma va letto insieme alle condizioni della rosa: **Stones** è infatti nell’elenco infortunati (rientro previsto da inizio ottobre) e questo può incidere sulle scelte dietro, dove **Bisseck** e **Pavard** vengono indicati come profili da considerare in chiave scambi/slot difensivi.
+
+Capitolo scommesse e “low cost”: tra i nomi che stanno trovando spazio vengono citati **Cambiaghi** (Bologna) e **Kvernadze** (Frosinone). E proprio Kvernadze ha già timbrato anche nell’ultimo turno “vero”, segnando nel pareggio 1-1 del Frosinone a Genova (poi pari di **Vasquez**). Per il Cagliari, invece, i riflettori restano su **Maldini**, già decisivo nell’1-0 al Lecce e ancora a segno nel successo 1-2 a Bergamo contro l’Atalanta (assieme a **Mendy P.**): attenzione alle valutazioni su rigori e “potenziali” che restano tali, perché non c’è una conferma ufficiale.
+
+Tra le indicazioni di mercato (scambi/aste di riparazione) emergono anche **Orsolini** e **Dovbyk**, ma con un paletto fondamentale: **entrambi sono presenti nell’elenco infortunati**. Orsolini è fermo dai flessori (proverà a strappare una convocazione, ma resta “da valutare”), mentre Dovbyk non è al meglio per noie muscolari ed è stato assente nell’ultima trasferta di Napoli: per questo, al momento, non possono essere trattati come certezze “schierabili”.
+
+In difesa e tra i portieri, il tema è sempre lo stesso: trovare affidabilità senza farsi trascinare dalle mode. Nel giro di valutazioni e aste si parla di profili come **Carnesecchi**, **De Gea**, **Svilar**, **Vicario** e **Mandas**; ma la vera discriminante resta la gestione del budget e, soprattutto, la lettura delle prossime partite.
+
+In sintesi: il turno ha consegnato due segnali fortissimi (Mastantuono e Moreira), ha ribadito l’Inter come macchina da bonus ma con qualche grana fisica in difesa, e ha riacceso la caccia ai profili “jolly” da rotazione. Occhio però alla lista infortunati: è lì che, spesso, si vince o si perde la settimana.
