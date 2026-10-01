@@ -1,0 +1,18 @@
+---
+title: "Zaniolo ai box e listone che si muove: tra infortuni e mercato scambi, ecco chi sale (davvero) e chi frena"
+subtitle: "Udinese senza il suo centrocampista fino a metà ottobre: occhi anche su Dimarco, Gudmundsson A. e Raspadori. Intanto l’ultima giornata rilancia Adzic e mette in vetrina alcune pedine da plusvalenza."
+description: "Il punto di giornata ruota attorno all’infermeria: Zaniolo è ufficialmente infortunato e non può essere considerato schierabile, con rientro previsto dalla seconda metà di ottobre. Nel frattempo, l’ultima giornata ha portato nuove indicazioni utili anche in chiave scambi: Adzic è andato a segno nel ko del Sassuolo a Monza e resta uno dei profili più “caldi” tra i centrocampisti in crescita. Da monitorare anche la situazione di Dimarco, Gudmundsson A. e Raspadori, tutti presenti nel report infortunati con tempistiche già delineate."
+publishedAt: 2026-10-01
+tags: ["Zaniolo","Adzic","Udinese","Sassuolo","Infortuni Serie A","Scambi fantacalcio"]
+---
+L’informazione principale arriva dall’infermeria: **Zaniolo (UDI)** è **infortunato** per una lesione muscolare al bicipite femorale destro, con **rientro previsto dalla seconda metà di ottobre**. Tradotto per il fantacalcio: va gestito come indisponibile, senza forzature né letture ottimistiche sui tempi.
+
+Attorno a lui, il quadro dei big e semi-top ai box resta fitto e impatta direttamente le strategie di scambio: **Raspadori (ATA)** è fermo per una distrazione di basso grado al bicipite femorale (rientro tra i convocati dalla **seconda metà di ottobre**), **Gudmundsson A. (LAZ)** va monitorato dopo il problema alla spalla (si confida nel recupero dalla **seconda metà di ottobre**), mentre **Hien (ATA)** punta a tornare **da fine ottobre**. Situazione definita anche per **Dimarco (INT)**, citato nel giro degli aggiornamenti legati agli infortunati, all’interno di un contesto in cui la gestione delle rotazioni diventa inevitabile.
+
+Nel frattempo, l’ultima giornata ha dato qualche segnale chiaro sul fronte “valore percepito” e appetibilità negli scambi. Su tutti, **Adzic (SAS)**: è andato in gol nel match perso dal Sassuolo contro il Monza (come da cronache ufficiali) e resta uno dei nomi che più facilmente finiscono al centro delle trattative, anche per il mix tra hype e potenziale rendimento.
+
+Il tema scambi, infatti, sta diventando centrale proprio perché tra stop muscolari e rientri dilazionati molti fantallenatori stanno cercando certezze di voto immediate: in questo senso **Frattesi (LAZ)** è uno dei centrocampisti che continua a essere spesso chiamato in causa nelle discussioni di mercato, mentre profili come **Ekkelenkamp (UDI)** e **Da Cunha (COM)** vengono letti come alternative più “di sistema”, utili per equilibrio di reparto e continuità.
+
+Capitolo attaccanti: nella costruzione di pacchetti 2x1 e scambi incrociati restano frequentemente citati **Kolo Muani (JUV)** e **Woltemade (JUV)** come pedine che possono spostare budget e incastri, con **Ramos G. (MIL)** e **Camarda (MIL)** che rientrano tra i nomi discussi nelle dinamiche di reparto. Qui, però, la discriminante resta sempre la disponibilità reale: chi è infortunato (o vicino al rientro ma non ancora arruolabile) non va trattato come “pronto”.
+
+In sintesi: **Zaniolo è uno stop certo e pesa**, mentre la sosta (e il lavoro sul mercato scambi) diventa l’occasione per riposizionare le rose tra chi cerca bonus e chi, invece, deve prima di tutto mettere al sicuro i voti. Con Adzic che torna a far rumore sul campo e diversi nomi pesanti ancora appesi alle tempistiche mediche, le prossime mosse faranno la differenza più del solito.
